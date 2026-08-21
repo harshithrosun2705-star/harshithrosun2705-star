@@ -1,51 +1,49 @@
 <!-- ===================================================== -->
-<!--                 HARSHITH ROSUN W                       -->
+<!--                 HARSHITH ROSUN W                      -->
 <!--            DEVOPS • CLOUD • AUTOMATION                -->
 <!-- ===================================================== -->
 
-<!-- ================= ANIMATED HERO ================= -->
+<!-- ================= HERO ================= -->
 
 <p align="center">
   <img
     width="100%"
-    src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:020617,40:0f172a,70:312e81,100:0891b2&text=HARSHITH%20ROSUN%20W&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=DEVOPS%20%E2%80%A2%20CLOUD%20%E2%80%A2%20AUTOMATION&descAlignY=58&descSize=18"
+    src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:020617,40:0f172a,70:312e81,100:0891b2&text=HARSHITH%20ROSUN%20W&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=DEVOPS%20%E2%80%A2%20CLOUD%20%E2%80%A2%20AUTOMATION&descAlignY=58&descSize=18"
   />
 </p>
 
 <div align="center">
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=700&color=22D3EE&center=true&vCenter=true&width=850&lines=Building+cloud+infrastructure+that+scales+%E2%98%81%EF%B8%8F;Automating+infrastructure+with+Terraform+%F0%9F%8F%97%EF%B8%8F;Shipping+containers+with+Docker+%26+Kubernetes+%E2%98%B8%EF%B8%8F;Engineering+CI%2FCD+%26+GitOps+workflows+%E2%9A%99%EF%B8%8F;Observing+systems+with+Prometheus+%26+Grafana+%F0%9F%93%8A;Securing+the+pipeline+with+DevSecOps+%F0%9F%94%90"
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=700&color=22D3EE&center=true&vCenter=true&width=850&lines=Building+Cloud-Native+Infrastructure+%E2%98%81%EF%B8%8F;Automating+Infrastructure+with+Terraform+%F0%9F%8F%97%EF%B8%8F;Deploying+Applications+with+Kubernetes+%E2%98%B8%EF%B8%8F;Engineering+CI%2FCD+%26+GitOps+Workflows+%E2%9A%99%EF%B8%8F;Monitoring+Systems+with+Prometheus+%26+Grafana+%F0%9F%93%8A;Building+Secure+DevSecOps+Pipelines+%F0%9F%94%90"
   alt="Typing SVG"
 />
 
 <br/>
 
 <a href="https://github.com/harshithrosun2705-star">
-<img src="https://img.shields.io/badge/GitHub-Harshith_Roshan-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-HARSHITH_ROSUN_W-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <a href="https://www.linkedin.com/in/harshith-rosun-w-a3a29a305/">
-<img src="https://img.shields.io/badge/LinkedIn-Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LinkedIn-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 <img src="https://komarev.com/ghpvc/?username=harshithrosun2705-star&style=for-the-badge&color=0891b2&label=PROFILE+VIEWS"/>
 
 </div>
 
-<br/>
-
-<!-- ================= NAVIGATION ================= -->
+---
 
 <div align="center">
 
 ### `./navigate`
 
-[⚡ About](#-system-identity) •
-[🛠 Arsenal](#-technology-arsenal) •
+[⚡ Identity](#-system-identity) •
+[🛠 Stack](#-technology-arsenal) •
 [🚀 Projects](#-mission-control) •
-[🏗 Architecture](#-devops-engine) •
-[📡 Telemetry](#-live-github-telemetry) •
+[⚙️ DevOps](#️-devops-engine) •
+[📡 Stats](#-live-github-telemetry) •
 [🐍 Activity](#-contribution-stream) •
 [🤝 Connect](#-establish-connection)
 
@@ -59,56 +57,62 @@
 harshith@devops:~$ whoami
 
 HARSHITH ROSUN W
+
+Role:
 DevOps & Cloud Engineering
 
 harshith@devops:~$ cat focus.txt
 
-☁️  Cloud Infrastructure
-⚙️  DevOps Automation
-☸️  Kubernetes
+☁️  AWS Cloud
 🏗️  Infrastructure as Code
+🐳  Docker
+☸️  Kubernetes
+⚙️  CI/CD
+🔄  GitOps
 🔐  DevSecOps
 📊  Observability
 🐍  Python Automation
 
 harshith@devops:~$ echo $MISSION
 
-"Automate what can be automated.
- Build what can be reproduced.
- Observe what can fail.
- Secure what can be attacked."
+"Build infrastructure that is
+ automated,
+ reproducible,
+ observable,
+ secure
+ and scalable."
 ```
 
 <div align="center">
 
-### Building systems from `git push` → `production`
+### From `git push` → `production`
 
 </div>
 
 ```text
 CODE
-  │
-  ▼
-BUILD
-  │
-  ▼
+ │
+ ▼
 TEST
-  │
-  ▼
+ │
+ ▼
 SECURE
-  │
-  ▼
-PACKAGE
-  │
-  ▼
+ │
+ ▼
+BUILD
+ │
+ ▼
+SHIP
+ │
+ ▼
 DEPLOY
-  │
-  ▼
+ │
+ ▼
 OBSERVE
-  │
-  ▼
+ │
+ ▼
 IMPROVE
-  └──────────────► ♻
+ └────────────────────► ♻️
 ```
 
 ---
@@ -117,16 +121,18 @@ IMPROVE
 
 <div align="center">
 
-### `cloud • infrastructure • containers • automation`
+### ☁️ Cloud • 🏗 Infrastructure • 🐳 Containers • ⚙️ Automation
+
+<br/>
 
 <img src="https://skillicons.dev/icons?i=aws,terraform,docker,kubernetes,linux,git,github,githubactions,jenkins,python,bash&perline=11&theme=dark"/>
 
 <br/><br/>
 
-![AWS EKS](https://img.shields.io/badge/Amazon_EKS-FF9900?style=for-the-badge&logo=amazoneks&logoColor=white)
-![Amazon ECR](https://img.shields.io/badge/Amazon_ECR-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![EKS](https://img.shields.io/badge/Amazon_EKS-FF9900?style=for-the-badge&logo=amazoneks&logoColor=white)
+![ECR](https://img.shields.io/badge/Amazon_ECR-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-FE733A?style=for-the-badge&logo=argo&logoColor=white)
-![Helm](https://img.shields.io/badge/HelM-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
 
 <br/>
 
@@ -145,38 +151,41 @@ IMPROVE
 <br/>
 
 ```text
-COMPUTE
-├── EC2
-├── Auto Scaling
-├── Lambda
-└── EKS
-
-NETWORKING
-├── VPC
-├── Public / Private Subnets
-├── Route Tables
-├── Internet Gateway
-├── NAT Gateway
-├── ALB
-└── Security Groups
-
-STORAGE / DATA
-├── EBS
-├── ECR
-└── DynamoDB
-
-SECURITY
-├── IAM
-├── IAM Roles
-├── IAM Policies
-├── IRSA
-└── Secrets Manager
-
-SERVERLESS / AUTOMATION
-├── Lambda
-├── EventBridge
-├── SES
-└── CloudWatch
+AWS
+│
+├── Compute
+│   ├── EC2
+│   ├── Lambda
+│   ├── Auto Scaling
+│   └── EKS
+│
+├── Networking
+│   ├── VPC
+│   ├── Public Subnet
+│   ├── Private Subnet
+│   ├── Route Tables
+│   ├── Internet Gateway
+│   ├── NAT Gateway
+│   ├── Security Groups
+│   └── Application Load Balancer
+│
+├── Data / Storage
+│   ├── EBS
+│   ├── ECR
+│   └── DynamoDB
+│
+├── Security
+│   ├── IAM
+│   ├── IAM Roles
+│   ├── IAM Policies
+│   ├── IRSA
+│   └── Secrets Manager
+│
+└── Automation / Monitoring
+    ├── EventBridge
+    ├── SES
+    ├── CloudWatch
+    └── Lambda
 ```
 
 </details>
@@ -188,20 +197,22 @@ SERVERLESS / AUTOMATION
 
 ```text
 Kubernetes
+│
 ├── Pods
 ├── Deployments
 ├── ReplicaSets
 ├── Services
-├── Ingress
 ├── ConfigMaps
 ├── Secrets
-├── ServiceAccounts
+├── Ingress
+├── Service Accounts
 ├── RBAC
 ├── Liveness Probes
 ├── Readiness Probes
-└── Horizontal Scaling
+└── Self-Healing
 
 Platform
+│
 ├── Amazon EKS
 ├── Amazon ECR
 ├── Helm
@@ -216,18 +227,26 @@ Platform
 <br/>
 
 ```text
-Git
-├── GitHub
-│   └── GitHub Actions
-│
-├── Jenkins
-│
-├── Docker
-│
-├── Terraform
-│
-└── GitOps
-    └── ArgoCD
+Source Control
+└── Git / GitHub
+
+CI/CD
+├── GitHub Actions
+└── Jenkins
+
+Containers
+└── Docker
+
+Infrastructure
+└── Terraform
+
+GitOps
+└── ArgoCD
+
+Automation
+├── Python
+├── Bash
+└── Boto3
 ```
 
 </details>
@@ -238,13 +257,22 @@ Git
 <br/>
 
 ```text
-Application / Cluster
-        │
-        ├── Prometheus ──► Metrics
-        │
-        ├── Grafana ─────► Dashboards
-        │
-        └── CloudWatch ──► AWS Monitoring
+APPLICATION
+     │
+     ├────────► Prometheus
+     │               │
+     │               ▼
+     │            Metrics
+     │
+     ├────────► Grafana
+     │               │
+     │               ▼
+     │           Dashboards
+     │
+     └────────► CloudWatch
+                     │
+                     ▼
+                AWS Monitoring
 ```
 
 </details>
@@ -255,25 +283,21 @@ Application / Cluster
 
 <div align="center">
 
-## Selected Engineering Projects
+## Featured Engineering Projects
 
-`REAL-WORLD PROBLEMS` • `AUTOMATION` • `CLOUD` • `DEVOPS`
+`CLOUD` • `DEVOPS` • `KUBERNETES` • `FINOPS` • `SERVERLESS` • `AUTOMATION`
 
 </div>
 
-<br/>
-
-<!-- ===================================================== -->
-<!-- PROJECT 01 -->
-<!-- ===================================================== -->
+---
 
 <details open>
 
 <summary>
 
-### 💰 01 · AWS Multi-Region Cost Optimization Platform ⭐
+## 💰 01 · AWS Multi-Region Cost Optimization Platform ⭐
 
-**FinOps • Serverless • Multi-Region AWS Automation**
+**FinOps • AWS Serverless • Python Automation**
 
 </summary>
 
@@ -283,27 +307,27 @@ Application / Cluster
 
 ![Status](https://img.shields.io/badge/STATUS-COMPLETED-00C853?style=for-the-badge)
 ![AWS](https://img.shields.io/badge/AWS-SERVERLESS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Python](https://img.shields.io/badge/PYTHON-AUTOMATION-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/PYTHON-BOTO3-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FinOps](https://img.shields.io/badge/FOCUS-FINOPS-0891B2?style=for-the-badge)
 
 </div>
 
 ### `> mission`
 
-Automatically inspect multiple AWS regions, detect potentially unused infrastructure and generate actionable cloud cost optimization reports.
+Automatically scan AWS regions, identify potentially unused resources, estimate monthly savings and deliver an HTML optimization report.
 
 ### `> architecture`
 
 ```mermaid
 flowchart LR
 
-    A["⏱ EventBridge"]
+    A["⏰ EventBridge"]
     B["⚡ Lambda"]
     C["🌍 Multi-Region Scanner"]
-    D["🔍 Resource Analysis"]
+    D["🔍 Resource Analyzer"]
     E["💰 Cost Engine"]
     F["📄 HTML Report"]
-    G["📧 Amazon SES"]
+    G["📧 SES"]
 
     A --> B
     B --> C
@@ -313,46 +337,63 @@ flowchart LR
     F --> G
 ```
 
-### `> resources.scan()`
+### `> scanner.targets`
 
 ```text
-🌍 Enabled AWS Regions
- │
- ├── EC2 Instances
- ├── EBS Volumes
- ├── EBS Snapshots
- ├── Elastic IPs
- ├── NAT Gateways
- └── Load Balancers
+AWS REGIONS
+│
+├── EC2 Instances
+├── EBS Volumes
+├── EBS Snapshots
+├── Elastic IPs
+├── NAT Gateways
+└── Load Balancers
 ```
 
-### `> detection`
+### `> detection.engine`
 
 ```text
-Stopped EC2          → Review compute cost
-Unattached EBS       → Potential storage saving
-Old Snapshots        → Review retention
-Unused Elastic IP    → Potential release
-Idle NAT Gateway     → Review network cost
-Idle Load Balancer   → Review unnecessary LB
+Stopped EC2
+      ↓
+Potential unnecessary compute cost
+
+Unattached EBS
+      ↓
+Potential storage saving
+
+Old Snapshots
+      ↓
+Review retention
+
+Unused Elastic IP
+      ↓
+Potential release
+
+Idle NAT Gateway
+      ↓
+Review networking cost
+
+Idle Load Balancer
+      ↓
+Review unused infrastructure
 ```
 
-### `> pipeline`
+### `> execution`
 
 ```text
 EVENTBRIDGE
      │
      ▼
-LAMBDA
+AWS LAMBDA
      │
      ▼
-18 AWS REGIONS
+SCAN AWS REGIONS
      │
      ▼
-RESOURCE DISCOVERY
+RESOURCE ANALYSIS
      │
      ▼
-COST ANALYSIS
+COST ESTIMATION
      │
      ▼
 HTML REPORT
@@ -361,41 +402,44 @@ HTML REPORT
 SES EMAIL
 ```
 
-### `> technologies`
+### `> stack`
 
-`AWS Lambda` `Amazon EventBridge` `CloudWatch` `SES` `IAM`  
-`Python` `Boto3` `FinOps` `HTML Reporting`
+`AWS Lambda`
+`EventBridge`
+`CloudWatch`
+`SES`
+`IAM`
+`Python`
+`Boto3`
+`FinOps`
 
-### `> engineering_value`
+### `> demonstrated`
 
+✅ Multi-region AWS automation  
 ✅ Serverless architecture  
-✅ Multi-region cloud automation  
-✅ AWS API automation with Boto3  
-✅ Cost optimization / FinOps  
-✅ Event-driven architecture  
+✅ Cloud cost optimization  
+✅ Python & Boto3 automation  
+✅ Event-driven systems  
+✅ IAM permissions  
 ✅ Automated reporting
 
 <br/>
 
 <a href="https://github.com/harshithrosun2705-star/aws-multi-region-cost-optimizer">
-<img src="https://img.shields.io/badge/EXPLORE_REPOSITORY-%E2%86%92-181717?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/VIEW_PROJECT-%E2%86%92-181717?style=for-the-badge&logo=github"/>
 </a>
 
 </details>
 
 ---
 
-<!-- ===================================================== -->
-<!-- PROJECT 02 -->
-<!-- ===================================================== -->
-
 <details>
 
 <summary>
 
-### 🤖 02 · OpsPilot
+## 🤖 02 · OpsPilot
 
-**Kubernetes Self-Healing + Intelligent Troubleshooting Platform**
+**Kubernetes Self-Healing & Intelligent Troubleshooting**
 
 </summary>
 
@@ -412,16 +456,16 @@ SES EMAIL
 
 ### `> mission`
 
-Deploy and operate containerized microservices using Kubernetes while combining:
+Operate containerized microservices using Kubernetes with:
 
 ```text
 SELF-HEALING
       +
-MONITORING
-      +
 CI/CD
       +
-AUTOMATED TROUBLESHOOTING
+MONITORING
+      +
+TROUBLESHOOTING AUTOMATION
 ```
 
 ### `> architecture`
@@ -431,10 +475,10 @@ flowchart LR
 
     DEV["👨‍💻 Developer"]
     GH["GitHub"]
-    CI["⚙ GitHub Actions"]
+    CI["⚙️ GitHub Actions"]
     DK["🐳 Docker"]
     ECR["📦 ECR"]
-    EKS["☸ EKS"]
+    EKS["☸️ EKS"]
     PROM["📡 Prometheus"]
     GRAF["📊 Grafana"]
     OPS["🤖 OpsPilot"]
@@ -455,8 +499,8 @@ flowchart LR
 
 ```text
                     ┌───────────────┐
-                    │    NGINX      │
-                    │   FRONTEND    │
+                    │     NGINX     │
+                    │    FRONTEND   │
                     └───────┬───────┘
                             │
               ┌─────────────┼─────────────┐
@@ -470,86 +514,89 @@ flowchart LR
 
 ```text
 Desired Replicas = 3
+        │
+        ▼
+Running Pods = 3
+        │
+        ▼
 
-        POD
-         ✓
+One Pod Crashes ✕
 
-        POD
-         ✕
+        │
+        ▼
 
-        POD
-         ✓
-
-          │
-          ▼
-
-ReplicaSet detects:
+Actual = 2
 Desired = 3
-Actual  = 2
 
-          │
-          ▼
+        │
+        ▼
 
-      NEW POD
+ReplicaSet Controller
 
-          │
-          ▼
+        │
+        ▼
 
-Healthy Replicas = 3
+Creates Replacement Pod
+
+        │
+        ▼
+
+Healthy Pods = 3 ✓
 ```
 
 ### `> opspilot.analyze()`
 
 ```text
 CrashLoopBackOff
-      │
-      ├── Check container logs
-      ├── Check application exit code
-      ├── Check configuration
-      └── Check health probes
+├── Check application logs
+├── Check exit code
+├── Check environment variables
+└── Check probes
 
 
 ImagePullBackOff
-      │
-      ├── Verify image
-      ├── Verify image tag
-      ├── Check ECR access
-      └── Check authentication
+├── Check image name
+├── Check image tag
+├── Check ECR access
+└── Check authentication
 
 
 Pending
-      │
-      ├── Check node capacity
-      ├── Check requests / limits
-      ├── Check node selectors
-      └── Check scheduling events
+├── Check node resources
+├── Check node selector
+├── Check requests / limits
+└── Check scheduling events
 ```
 
-### `> technologies`
+### `> stack`
 
-`Amazon EKS` `Amazon ECR` `Docker` `Kubernetes`  
-`GitHub Actions` `Prometheus` `Grafana`  
-`FastAPI` `Nginx` `Python` `Kubernetes Python SDK`
+`Amazon EKS`
+`Amazon ECR`
+`Docker`
+`Kubernetes`
+`GitHub Actions`
+`Prometheus`
+`Grafana`
+`FastAPI`
+`Nginx`
+`Python`
+`Kubernetes Python SDK`
 
 <br/>
 
 <a href="https://github.com/harshithrosun2705-star/opspilot-kubernetes-platform">
-<img src="https://img.shields.io/badge/EXPLORE_OPSPILOT-%E2%86%92-181717?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/VIEW_OPSPILOT-%E2%86%92-181717?style=for-the-badge&logo=github"/>
 </a>
 
 </details>
 
 ---
 
-<!-- ===================================================== -->
-<!-- PROJECT 03 -->
-<!-- ===================================================== -->
-
 <details>
 
 <summary>
 
-### 🔐 03 · Production DevSecOps Cloud Platform
+## 🔐 03 · Production DevSecOps Cloud Platform
 
 **AWS • Terraform • Kubernetes • GitOps • Security**
 
@@ -559,15 +606,16 @@ Pending
 
 <div align="center">
 
-![Terraform](https://img.shields.io/badge/TERRAFORM-IAC-844FBA?style=for-the-badge&logo=terraform)
-![GitOps](https://img.shields.io/badge/GITOPS-ARGOCD-FE733A?style=for-the-badge&logo=argo)
-![Security](https://img.shields.io/badge/DEVSECOPS-SECURITY-7C3AED?style=for-the-badge)
+![Terraform](https://img.shields.io/badge/TERRAFORM-IAC-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GITHUB_ACTIONS-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ARGOCD-GITOPS-FE733A?style=for-the-badge&logo=argo&logoColor=white)
+![DevSecOps](https://img.shields.io/badge/DEVSECOPS-SECURITY-7C3AED?style=for-the-badge)
 
 </div>
 
 ### `> mission`
 
-Build a production-style delivery platform where infrastructure, security and deployments are automated.
+Build a production-style DevSecOps delivery platform where infrastructure, deployment and security are automated.
 
 ### `> architecture`
 
@@ -576,34 +624,37 @@ flowchart LR
 
     G["GitHub"]
     A["GitHub Actions"]
-    T["Test"]
-    S["Security"]
-    D["Docker"]
-    R["ECR"]
-    AR["ArgoCD"]
-    K["EKS"]
-    H["Helm"]
-    LB["ALB"]
-    P["Pods"]
-    M["Monitoring"]
+
+    TEST["🧪 Test"]
+    SEC["🔐 Scan"]
+    BUILD["🐳 Build"]
+
+    ECR["Amazon ECR"]
+    ARGO["ArgoCD"]
+    EKS["Amazon EKS"]
+    HELM["Helm"]
+    ALB["ALB Ingress"]
+    POD["Application Pods"]
+    MON["Prometheus / Grafana"]
 
     G --> A
-    A --> T
-    A --> S
 
-    T --> D
-    S --> D
+    A --> TEST
+    A --> SEC
 
-    D --> R
-    R --> AR
-    AR --> K
-    K --> H
-    H --> LB
-    LB --> P
-    P --> M
+    TEST --> BUILD
+    SEC --> BUILD
+
+    BUILD --> ECR
+    ECR --> ARGO
+    ARGO --> EKS
+    EKS --> HELM
+    HELM --> ALB
+    ALB --> POD
+    POD --> MON
 ```
 
-### `> secure_delivery`
+### `> delivery`
 
 ```text
 CODE
@@ -612,22 +663,31 @@ CODE
 TEST
  │
  ▼
-SCAN
+SECURITY SCAN
  │
  ▼
-BUILD
+DOCKER BUILD
  │
  ▼
-ECR
+AMAZON ECR
  │
  ▼
 ARGOCD
  │
  ▼
-EKS
+AMAZON EKS
  │
  ▼
-OBSERVE
+HELM
+ │
+ ▼
+ALB
+ │
+ ▼
+APPLICATION
+ │
+ ▼
+PROMETHEUS + GRAFANA
 ```
 
 ### `> security`
@@ -636,39 +696,43 @@ OBSERVE
 IAM Least Privilege
 IRSA
 AWS Secrets Manager
-Container Security Scanning
+Container Security
 CI/CD Security Gates
 Private Infrastructure
 Terraform IaC
 ```
 
-### `> technologies`
+### `> stack`
 
-`AWS` `Terraform` `Docker` `Kubernetes` `EKS`  
-`ECR` `GitHub Actions` `ArgoCD` `Helm`  
-`Prometheus` `Grafana`
+`AWS`
+`Terraform`
+`Docker`
+`Kubernetes`
+`EKS`
+`ECR`
+`GitHub Actions`
+`ArgoCD`
+`Helm`
+`Prometheus`
+`Grafana`
 
 <br/>
 
 <a href="https://github.com/harshithrosun2705-star/devsecops-cloud-platform">
-<img src="https://img.shields.io/badge/EXPLORE_PLATFORM-%E2%86%92-181717?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/VIEW_PLATFORM-%E2%86%92-181717?style=for-the-badge&logo=github"/>
 </a>
 
 </details>
 
 ---
 
-<!-- ===================================================== -->
-<!-- PROJECT 04 -->
-<!-- ===================================================== -->
-
 <details>
 
 <summary>
 
-### 🪙 04 · Gold & Silver Price Monitoring System
+## 🪙 04 · Gold & Silver Price Monitoring System
 
-**AWS Serverless • Event Driven • API Automation**
+**Serverless • Event-Driven • API Automation**
 
 </summary>
 
@@ -676,87 +740,104 @@ Terraform IaC
 
 <div align="center">
 
-![Serverless](https://img.shields.io/badge/ARCHITECTURE-SERVERLESS-FF9900?style=for-the-badge&logo=awslambda)
-![DynamoDB](https://img.shields.io/badge/DATABASE-DYNAMODB-4053D6?style=for-the-badge&logo=amazondynamodb)
-![Automation](https://img.shields.io/badge/AUTOMATION-PYTHON-3776AB?style=for-the-badge&logo=python)
+![Lambda](https://img.shields.io/badge/AWS-LAMBDA-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DATABASE-DYNAMODB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
+![Python](https://img.shields.io/badge/AUTOMATION-PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 </div>
 
 ### `> mission`
 
-Automatically fetch daily precious-metal prices, maintain historical data, calculate daily movements and deliver reports.
+Fetch daily Gold and Silver prices automatically, maintain historical values, compare price changes and email the result.
 
 ### `> architecture`
 
 ```mermaid
 flowchart LR
 
-    EB["⏱ EventBridge"]
+    EB["⏰ EventBridge"]
     L["⚡ Lambda"]
     API["🌐 Price API"]
-    DB["🗄 DynamoDB"]
-    CMP["📊 Compare"]
+    DB["🗄️ DynamoDB"]
+    CMP["📊 Compare Prices"]
+    REPORT["📄 HTML Report"]
     SES["📧 SES"]
 
     EB --> L
     L --> API
     API --> CMP
+
     DB --> CMP
+
     CMP --> DB
-    CMP --> SES
+    CMP --> REPORT
+    REPORT --> SES
 ```
 
-### `> data.pipeline`
+### `> pipeline`
 
 ```text
-FETCH TODAY
-    │
-    ▼
-READ YESTERDAY
-    │
-    ▼
-COMPARE
-    │
-    ├── Difference
-    ├── Increase
-    └── Decrease
-    │
-    ▼
+FETCH TODAY'S PRICE
+        │
+        ▼
+READ YESTERDAY'S PRICE
+        │
+        ▼
+CALCULATE DIFFERENCE
+        │
+        ▼
+INCREASE / DECREASE
+        │
+        ▼
 STORE TODAY
-    │
-    ▼
-GENERATE REPORT
-    │
-    ▼
+        │
+        ▼
+GENERATE HTML
+        │
+        ▼
 SEND EMAIL
 ```
 
-### `> technologies`
+### `> monitored`
 
-`Lambda` `DynamoDB` `SES` `EventBridge` `CloudWatch`  
-`Python` `Boto3` `urllib3` `REST APIs`
+```text
+Gold
+├── 1 Gram
+└── 8 Gram
+
+Silver
+└── 1 Gram
+```
+
+### `> stack`
+
+`AWS Lambda`
+`DynamoDB`
+`SES`
+`EventBridge`
+`CloudWatch`
+`Python`
+`Boto3`
+`urllib3`
+`REST API`
 
 <br/>
 
 <a href="https://github.com/harshithrosun2705-star/serverless-metal-price-monitor">
-<img src="https://img.shields.io/badge/EXPLORE_PROJECT-%E2%86%92-181717?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/VIEW_PROJECT-%E2%86%92-181717?style=for-the-badge&logo=github"/>
 </a>
 
 </details>
 
 ---
 
-<!-- ===================================================== -->
-<!-- PROJECT 05 -->
-<!-- ===================================================== -->
-
 <details>
 
 <summary>
 
-### ❤️ 05 · IoT Health Monitoring System
+## ❤️ 05 · IoT Health Monitoring System
 
-**ESP32 • Sensors • Embedded Systems • Real-Time Monitoring**
+**ESP32 • Sensors • Embedded Systems**
 
 </summary>
 
@@ -764,69 +845,99 @@ SEND EMAIL
 
 <div align="center">
 
-![ESP32](https://img.shields.io/badge/ESP32-IoT-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![Embedded C](https://img.shields.io/badge/Embedded-C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![ESP32](https://img.shields.io/badge/ESP32-IOT-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
+![Arduino](https://img.shields.io/badge/ARDUINO-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![Embedded C](https://img.shields.io/badge/EMBEDDED-C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
 
 </div>
 
-### `> sensor.network`
+### `> mission`
+
+Monitor health and motion-related sensor data using an ESP32-based embedded system.
+
+### `> architecture`
 
 ```mermaid
 flowchart LR
 
-    TEMP["🌡 DS18B20"]
+    TEMP["🌡️ DS18B20"]
     HEART["❤️ MAX30102"]
     MOTION["🏃 MPU6050"]
 
     ESP["ESP32"]
 
-    PROCESS["⚙ Process"]
-    OUTPUT["📡 Display / Transmit"]
+    PROCESS["⚙️ Process Data"]
+
+    RESULT["📊 Display / Transmit"]
 
     TEMP --> ESP
     HEART --> ESP
     MOTION --> ESP
 
     ESP --> PROCESS
-    PROCESS --> OUTPUT
+    PROCESS --> RESULT
 ```
 
-### `> sensors`
+### `> sensor.matrix`
 
 ```text
 DS18B20
 └── Body Temperature
 
+
 MAX30102
 ├── Heart Rate
 └── SpO₂
 
+
 MPU6050
-├── Motion
+├── Motion Detection
 └── Fall Detection
 ```
 
-### `> technologies`
+### `> pipeline`
 
-`ESP32` `DS18B20` `MAX30102` `MPU6050`  
-`Arduino IDE` `Embedded C` `IoT`
+```text
+SENSORS
+   │
+   ▼
+ESP32
+   │
+   ▼
+READ VALUES
+   │
+   ▼
+PROCESS DATA
+   │
+   ▼
+DISPLAY / TRANSMIT
+```
+
+### `> stack`
+
+`ESP32`
+`DS18B20`
+`MAX30102`
+`MPU6050`
+`Arduino IDE`
+`Embedded C`
+`IoT`
 
 <br/>
 
 <a href="https://github.com/harshithrosun2705-star/iot-health-monitoring">
-<img src="https://img.shields.io/badge/EXPLORE_IOT_PROJECT-%E2%86%92-181717?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/VIEW_IOT_PROJECT-%E2%86%92-181717?style=for-the-badge&logo=github"/>
 </a>
 
 </details>
 
 ---
 
-# 🏗 DevOps Engine
+# ⚙️ DevOps Engine
 
 <div align="center">
 
-### `What happens after I push code?`
+### What happens after `git push`?
 
 </div>
 
@@ -835,178 +946,46 @@ flowchart LR
 
     CODE["</> CODE"]
 
-    subgraph CI["CONTINUOUS INTEGRATION"]
-        TEST["TEST"]
-        SCAN["SECURITY"]
-        BUILD["BUILD"]
-    end
-
-    REG["CONTAINER REGISTRY"]
-
-    subgraph CD["CONTINUOUS DELIVERY"]
-        GITOPS["GITOPS"]
-        K8S["KUBERNETES"]
-    end
-
-    subgraph OBS["OBSERVABILITY"]
-        METRICS["METRICS"]
-        DASH["DASHBOARDS"]
-    end
+    TEST["🧪 TEST"]
+    SECURITY["🔐 SECURITY"]
+    BUILD["🐳 BUILD"]
+    REGISTRY["📦 REGISTRY"]
+    GITOPS["🔄 GITOPS"]
+    K8S["☸️ KUBERNETES"]
+    METRICS["📡 METRICS"]
+    DASH["📊 DASHBOARD"]
 
     CODE --> TEST
-    TEST --> SCAN
-    SCAN --> BUILD
-
-    BUILD --> REG
-
-    REG --> GITOPS
+    TEST --> SECURITY
+    SECURITY --> BUILD
+    BUILD --> REGISTRY
+    REGISTRY --> GITOPS
     GITOPS --> K8S
-
     K8S --> METRICS
     METRICS --> DASH
 ```
 
 <div align="center">
 
-`CODE` → `TEST` → `SECURE` → `BUILD` → `SHIP` → `DEPLOY` → `OBSERVE`
+### `CODE → TEST → SECURE → BUILD → SHIP → DEPLOY → OBSERVE`
 
 </div>
 
 ---
 
-# 🧠 Engineering Mindset
+# 🧠 Engineering Philosophy
 
 ```console
-$ devops --principles
+harshith@devops:~$ devops --principles
 
-[01] Automate repetitive operations
-[02] Infrastructure should be reproducible
+[01] Automate repetitive work
+[02] Infrastructure must be reproducible
 [03] Git should describe desired state
 [04] Security belongs inside the pipeline
-[05] Systems must be observable
-[06] Failures should be detectable
+[05] Applications must be observable
+[06] Failures must be detectable
 [07] Recovery should be automated
 [08] Documentation is part of engineering
-```
-
----
-
-# 📡 Live GitHub Telemetry
-
-<div align="center">
-
-<img
-  width="95%"
-  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=harshithrosun2705-star&theme=tokyonight"
-/>
-
-<br/>
-
-<img
-  width="47%"
-  src="https://github-readme-stats.vercel.app/api?username=harshithrosun2705-star&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"
-/>
-
-<img
-  width="47%"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshithrosun2705-star&layout=compact&theme=tokyonight&hide_border=true"
-/>
-
-<br/>
-
-<img
-  width="70%"
-  src="https://streak-stats.demolab.com?user=harshithrosun2705-star&theme=tokyonight&hide_border=true"
-/>
-
-</div>
-
-The cards above update from your GitHub activity rather than being manually entered. Profile-summary cards can also be generated through GitHub Actions if you later want everything self-hosted in your repository. :contentReference[oaicite:1]{index=1}
-
----
-
-# 📈 Engineering Activity
-
-<div align="center">
-
-<img
-  width="100%"
-  src="https://github-readme-activity-graph.vercel.app/graph?username=harshithrosun2705-star&bg_color=0d1117&color=22d3ee&line=7c3aed&point=ffffff&area=true&hide_border=true"
-/>
-
-</div>
-
-This uses the activity graph's current canonical deployment rather than the old discontinued Heroku/Cyclic endpoints. :contentReference[oaicite:2]{index=2}
-
----
-
-# 🐍 Contribution Stream
-
-<div align="center">
-
-<picture>
-
-<source
-  media="(prefers-color-scheme: dark)"
-  srcset="https://raw.githubusercontent.com/harshithrosun2705-star/harshithrosun2705-star/output/github-contribution-grid-snake-dark.svg"
-/>
-
-<source
-  media="(prefers-color-scheme: light)"
-  srcset="https://raw.githubusercontent.com/harshithrosun2705-star/harshithrosun2705-star/output/github-contribution-grid-snake.svg"
-/>
-
-<img
-  alt="GitHub contribution snake"
-  src="https://raw.githubusercontent.com/harshithrosun2705-star/harshithrosun2705-star/output/github-contribution-grid-snake.svg"
-/>
-
-</picture>
-
-</div>
-
----
-
-# 🔭 Current Coordinates
-
-```yaml
-currently_focused_on:
-
-  cloud:
-    - AWS
-    - Architecture
-    - Networking
-
-  infrastructure:
-    - Terraform
-    - Infrastructure as Code
-
-  containers:
-    - Docker
-    - Kubernetes
-    - Amazon EKS
-
-  delivery:
-    - GitHub Actions
-    - Jenkins
-    - ArgoCD
-    - Helm
-
-  reliability:
-    - Prometheus
-    - Grafana
-    - Kubernetes Troubleshooting
-
-  security:
-    - IAM
-    - IRSA
-    - Secrets Management
-    - DevSecOps
-
-  automation:
-    - Python
-    - Bash
-    - Boto3
 ```
 
 ---
@@ -1016,14 +995,15 @@ currently_focused_on:
 ```mermaid
 mindmap
 
-root((HARSHITH))
+root((HARSHITH ROSUN W))
 
   AWS
-    Networking
-    IAM
+    EC2
     Lambda
     EKS
     ECR
+    IAM
+    Networking
     DynamoDB
 
   DevOps
@@ -1032,14 +1012,14 @@ root((HARSHITH))
     Jenkins
     GitOps
 
+  Infrastructure
+    Terraform
+    IaC
+
   Containers
     Docker
     Kubernetes
     Helm
-
-  Infrastructure
-    Terraform
-    IaC
 
   Observability
     Prometheus
@@ -1050,7 +1030,7 @@ root((HARSHITH))
     DevSecOps
     IAM
     IRSA
-    Secrets
+    Secrets Manager
 
   Automation
     Python
@@ -1066,11 +1046,166 @@ root((HARSHITH))
 
 ---
 
+# 📡 Live GitHub Telemetry
+
+<div align="center">
+
+<img
+  width="95%"
+  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=harshithrosun2705-star&theme=tokyonight"
+  alt="GitHub profile summary"
+/>
+
+<br/><br/>
+
+<img
+  width="48%"
+  src="https://github-readme-stats.vercel.app/api?username=harshithrosun2705-star&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"
+  alt="GitHub Stats"
+/>
+
+<img
+  width="48%"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshithrosun2705-star&layout=compact&theme=tokyonight&hide_border=true"
+  alt="Top Languages"
+/>
+
+<br/><br/>
+
+<img
+  width="70%"
+  src="https://streak-stats.demolab.com?user=harshithrosun2705-star&theme=tokyonight&hide_border=true"
+  alt="GitHub Streak"
+/>
+
+</div>
+
+---
+
+# 📈 Contribution Analytics
+
+<div align="center">
+
+<img
+  width="100%"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=harshithrosun2705-star&bg_color=0d1117&color=22d3ee&line=7c3aed&point=ffffff&area=true&hide_border=true"
+  alt="GitHub Contribution Graph"
+/>
+
+</div>
+
+---
+
+# 🐍 Contribution Stream
+
+<div align="center">
+
+<picture>
+
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/harshithrosun2705-star/harshithrosun2705-star/output/github-contribution-grid-snake-dark.svg"
+  />
+
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/harshithrosun2705-star/harshithrosun2705-star/output/github-contribution-grid-snake.svg"
+  />
+
+  <img
+    alt="GitHub contribution snake animation"
+    src="https://raw.githubusercontent.com/harshithrosun2705-star/harshithrosun2705-star/output/github-contribution-grid-snake.svg"
+  />
+
+</picture>
+
+</div>
+
+---
+
+# 🔭 Current Coordinates
+
+```yaml
+engineer:
+  name: HARSHITH ROSUN W
+
+  focus:
+    - DevOps
+    - Cloud Engineering
+    - Infrastructure Automation
+
+  cloud:
+    provider: AWS
+
+  infrastructure:
+    - Terraform
+    - Infrastructure as Code
+
+  containers:
+    - Docker
+    - Kubernetes
+    - Amazon EKS
+
+  ci_cd:
+    - GitHub Actions
+    - Jenkins
+
+  gitops:
+    - ArgoCD
+    - Helm
+
+  monitoring:
+    - Prometheus
+    - Grafana
+    - CloudWatch
+
+  security:
+    - IAM
+    - IRSA
+    - Secrets Manager
+    - DevSecOps
+
+  automation:
+    - Python
+    - Bash
+    - Boto3
+```
+
+---
+
+# 💡 Project Impact
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│                    HARSHITH ROSUN W                         │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│   ☁️ CLOUD          → AWS Infrastructure                     │
+│                                                              │
+│   💰 FINOPS         → Multi-Region Cost Optimization         │
+│                                                              │
+│   ☸️ KUBERNETES     → OpsPilot                               │
+│                                                              │
+│   🔐 DEVSECOPS      → Secure GitOps Platform                 │
+│                                                              │
+│   ⚡ SERVERLESS     → Price Monitoring Automation            │
+│                                                              │
+│   🐍 AUTOMATION     → Python + Boto3                         │
+│                                                              │
+│   📊 OBSERVABILITY  → Prometheus + Grafana                   │
+│                                                              │
+│   ❤️ IOT            → Embedded Health Monitoring             │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+---
+
 # 🤝 Establish Connection
 
 <div align="center">
 
-### Interested in Cloud • DevOps • Kubernetes • Automation?
+## Let's build something reliable.
 
 <br/>
 
@@ -1085,27 +1220,25 @@ root((HARSHITH))
 <br/><br/>
 
 ```text
-☁️ CLOUD
-   +
-⚙️ AUTOMATION
-   +
-☸️ KUBERNETES
-   +
-🔐 SECURITY
-   +
-📊 OBSERVABILITY
-
-        │
-        ▼
-
-   RELIABLE SYSTEMS
+        ☁️ CLOUD
+           +
+      ⚙️ AUTOMATION
+           +
+      ☸️ KUBERNETES
+           +
+       🔐 SECURITY
+           +
+     📊 OBSERVABILITY
+           │
+           ▼
+    RELIABLE SYSTEMS
 ```
 
-### `Build. Automate. Secure. Observe. Improve.`
+### `BUILD • AUTOMATE • SECURE • DEPLOY • OBSERVE • IMPROVE`
 
 </div>
 
-<!-- ================= ANIMATED FOOTER ================= -->
+<!-- ================= FOOTER ================= -->
 
 <p align="center">
   <img
