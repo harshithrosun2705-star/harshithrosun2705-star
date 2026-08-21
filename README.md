@@ -8,7 +8,7 @@
 <p align="center">
   <img
     width="100%"
-    src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:020617,40:0f172a,70:312e81,100:0891b2&text=HARSHITH%20ROSHAN&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=DEVOPS%20%E2%80%A2%20CLOUD%20%E2%80%A2%20AUTOMATION&descAlignY=58&descSize=18"
+    src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:020617,40:0f172a,70:312e81,100:0891b2&text=HARSHITH%20ROSUN%20W&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=DEVOPS%20%E2%80%A2%20CLOUD%20%E2%80%A2%20AUTOMATION&descAlignY=58&descSize=18"
   />
 </p>
 
@@ -58,7 +58,7 @@
 ```console
 harshith@devops:~$ whoami
 
-Harshith Roshan
+HARSHITH ROSUN W
 DevOps & Cloud Engineering
 
 harshith@devops:~$ cat focus.txt
