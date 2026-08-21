@@ -1,298 +1,437 @@
+# 🚀 Featured Projects
+
 <div align="center">
 
-# 👋 Hi, I'm Harshith Roshan
-
-### ☁️ DevOps & Cloud Engineering
-
-<img
-  src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=900&center=true&vCenter=true&width=750&lines=Building+Cloud-Native+Infrastructure+%E2%98%81%EF%B8%8F;Automating+Infrastructure+with+Terraform+%F0%9F%8F%97%EF%B8%8F;Deploying+Applications+with+Kubernetes+%E2%98%B8%EF%B8%8F;Building+CI%2FCD+and+GitOps+Workflows+%F0%9F%9A%80;Learning+%E2%80%A2+Building+%E2%80%A2+Automating+%E2%80%A2+Improving"
-  alt="Typing SVG"
-/>
+### Engineering projects focused on Cloud, DevOps, Automation, Kubernetes, FinOps & IoT
 
 <br/>
 
 ![AWS](https://img.shields.io/badge/AWS-Cloud-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Cloud_Native-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-IaC-844FBA?style=flat-square&logo=terraform&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
-![CI/CD](https://img.shields.io/badge/CI%2FCD-Automation-success?style=flat-square)
-![DevSecOps](https://img.shields.io/badge/DevSecOps-Security-blueviolet?style=flat-square)
+![Python](https://img.shields.io/badge/Python-Automation-3776AB?style=flat-square&logo=python&logoColor=white)
+![DevOps](https://img.shields.io/badge/DevOps-Automation-success?style=flat-square)
+
+</div>
+
+---
+
+## 📌 Project Portfolio
+
+| Project | Domain | Core Technologies |
+|---|---|---|
+| 💰 **AWS Multi-Region Cost Optimization Platform** | FinOps / Cloud Automation | Lambda, Python, Boto3, SES, EventBridge |
+| 🤖 **OpsPilot** | Kubernetes / DevOps / SRE | EKS, Docker, Kubernetes, Prometheus, Grafana |
+| 🔐 **DevSecOps Cloud Platform** | DevSecOps / GitOps | Terraform, EKS, ArgoCD, Helm, CI/CD |
+| 🪙 **Gold & Silver Price Monitoring System** | Serverless / Automation | Lambda, DynamoDB, SES, Python |
+| ❤️ **IoT Health Monitoring System** | IoT / Embedded | ESP32, MAX30102, MPU6050, Embedded C |
+
+---
+
+# ⭐ 01 — AWS Multi-Region Cost Optimization Platform
+
+> **Serverless FinOps automation that discovers unused AWS resources across multiple regions and estimates potential monthly cloud savings.**
+
+<div align="center">
+
+![AWS Lambda](https://img.shields.io/badge/AWS_Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Amazon CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazoncloudwatch&logoColor=white)
+![Amazon EventBridge](https://img.shields.io/badge/EventBridge-FF4F8B?style=for-the-badge&logo=amazoneventbridge&logoColor=white)
+
+</div>
+
+<details open>
+<summary><b>💡 Click to explore the project</b></summary>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=harshithrosun2705-star&label=PROFILE+VIEWS&style=flat-square&color=blue" alt="Profile views"/>
+### 🎯 Problem
 
-</div>
+Unused cloud resources can continue generating costs even when they are no longer providing business value.
 
----
+Manually checking every AWS region for unused infrastructure is repetitive and error-prone.
 
-<div align="center">
+### 💡 Solution
 
-[**About**](#about-me) •
-[**Tech Stack**](#tech-stack) •
-[**Project**](#flagship-project) •
-[**Architecture**](#architecture) •
-[**Engineering Practices**](#engineering-practices) •
-[**GitHub Analytics**](#github-analytics) •
-[**Connect**](#connect-with-me)
+I built a **serverless AWS cost optimization monitoring system** that automatically scans configured AWS regions, identifies potentially unused resources, estimates monthly savings and sends a consolidated HTML report through email.
 
-</div>
+### 🏗️ Architecture
 
----
+```mermaid
+flowchart TD
 
-## About Me
+    EB["⏰ Amazon EventBridge"] --> L["⚡ AWS Lambda"]
 
-```yaml
-name: Harshith Roshan
+    L --> REG["🌍 Scan AWS Regions"]
 
-focus:
-  - DevOps Engineering
-  - Cloud Computing
-  - Infrastructure Automation
-  - Kubernetes
-  - DevSecOps
+    REG --> EC2["EC2"]
+    REG --> EBS["EBS"]
+    REG --> EIP["Elastic IP"]
+    REG --> NAT["NAT Gateway"]
+    REG --> LB["Load Balancer"]
+    REG --> SNAP["Snapshots"]
 
-currently_building:
-  - Production-style AWS Infrastructure
-  - CI/CD Pipelines
-  - Kubernetes Deployments
-  - GitOps Workflows
+    EC2 --> ANALYZE["🔎 Analyze Unused Resources"]
+    EBS --> ANALYZE
+    EIP --> ANALYZE
+    NAT --> ANALYZE
+    LB --> ANALYZE
+    SNAP --> ANALYZE
 
-automation:
-  - Python
-  - Bash
-  - Terraform
+    ANALYZE --> COST["💰 Estimate Savings"]
 
-cloud:
-  provider: AWS
+    COST --> HTML["📄 Generate HTML Report"]
 
-goal:
-  "Build secure, automated, observable and scalable systems."
+    HTML --> SES["📧 Amazon SES"]
+
+    SES --> USER["👨‍💻 Email Report"]
 ```
 
-- ☁️ Focused on **DevOps & Cloud Engineering**
-- 🏗️ Building infrastructure on **AWS using Terraform**
-- 🐳 Containerizing applications using **Docker**
-- ☸️ Deploying workloads using **Kubernetes & Amazon EKS**
-- ⚙️ Building **CI/CD pipelines** with GitHub Actions and Jenkins
-- 🔄 Implementing **GitOps with ArgoCD & Helm**
-- 🔐 Exploring **DevSecOps, IAM, IRSA & Secrets Management**
-- 📊 Working with **Prometheus, Grafana & CloudWatch**
-- 🐍 Using **Python & Bash for automation**
-- 🌐 Strengthening **Linux, networking and cloud architecture**
+### 🔍 Resources Monitored
+
+- Stopped EC2 instances
+- Unattached EBS volumes
+- Old EBS snapshots
+- Unused Elastic IP addresses
+- Potentially idle NAT Gateways
+- Potentially idle Load Balancers
+
+### ⚙️ Execution Flow
+
+```text
+EventBridge
+      │
+      ▼
+AWS Lambda
+      │
+      ▼
+Discover Enabled Regions
+      │
+      ▼
+Scan Resources
+      │
+      ▼
+Detect Unused Infrastructure
+      │
+      ▼
+Estimate Monthly Savings
+      │
+      ▼
+Generate HTML Report
+      │
+      ▼
+Amazon SES
+      │
+      ▼
+Email Notification
+```
+
+### 🧠 Automation Logic
+
+Example regional client creation:
+
+```python
+for region in regions:
+    ec2 = boto3.client("ec2", region_name=region)
+```
+
+Example EBS cost estimation:
+
+```text
+Unused EBS Volume
+
+Size = 100 GB
+Estimated rate = $0.08 / GB
+
+Estimated saving:
+
+100 × $0.08
+= $8 / month
+```
+
+### 📧 Generated Report
+
+The automated report contains information such as:
+
+| Region | Resource | Finding | Estimated Saving | Recommendation |
+|---|---|---|---:|---|
+| us-east-1 | EBS | Unattached volume | Estimated | Review / Delete |
+| ap-south-1 | EC2 | Stopped instance | Estimated | Review |
+| eu-west-1 | EIP | Unassociated IP | Estimated | Release |
+
+### 🧰 Technologies
+
+`AWS Lambda`
+`EventBridge`
+`CloudWatch`
+`Amazon SES`
+`AWS IAM`
+`Python`
+`Boto3`
+
+### 🎯 Skills Demonstrated
+
+- AWS Serverless Architecture
+- Python Automation
+- Boto3
+- Multi-region AWS operations
+- Cloud Cost Optimization
+- FinOps fundamentals
+- IAM permissions
+- Event-driven architecture
+- HTML report generation
+- Automated cloud auditing
+
+</details>
 
 ---
 
-# Tech Stack
+# 🤖 02 — OpsPilot
 
-### ☁️ Cloud & Infrastructure
+## Kubernetes Self-Healing & AI-Assisted Microservices Platform
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,terraform,linux&theme=dark" />
-</p>
+> **A Kubernetes operations platform combining container orchestration, CI/CD, monitoring, automatic workload recovery and intelligent troubleshooting.**
 
 <div align="center">
 
-`AWS` • `Terraform` • `Linux` • `Infrastructure as Code`
-
-</div>
-
-### 🐳 Containers & Orchestration
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes&theme=dark" />
-</p>
-
-<div align="center">
-
-`Docker` • `Kubernetes` • `Amazon EKS` • `Helm`
-
-</div>
-
-### ⚙️ CI/CD & Version Control
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,githubactions,jenkins&theme=dark" />
-</p>
-
-<div align="center">
-
-`Git` • `GitHub` • `GitHub Actions` • `Jenkins`
-
-</div>
-
-### 💻 Programming & Automation
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,bash&theme=dark" />
-</p>
-
-<div align="center">
-
-`Python` • `Bash` • `YAML` • `HCL`
-
-</div>
-
-### 🔄 GitOps & Observability
-
-<div align="center">
-
-![ArgoCD](https://img.shields.io/badge/ArgoCD-FE733A?style=for-the-badge&logo=argo&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Amazon EKS](https://img.shields.io/badge/Amazon_EKS-FF9900?style=for-the-badge&logo=amazoneks&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 ![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
 </div>
 
----
-
-# AWS Knowledge
-
 <details>
-<summary><b>☁️ Compute</b></summary>
+<summary><b>☸️ Click to explore OpsPilot</b></summary>
 
 <br/>
-
-- Amazon EC2
-- Auto Scaling Groups
-- Application Load Balancer
-- Elastic Beanstalk
-- Amazon EKS
-
-</details>
-
-<details>
-<summary><b>🌐 Networking</b></summary>
-
-<br/>
-
-- VPC
-- Public & Private Subnets
-- Route Tables
-- Internet Gateway
-- NAT Gateway
-- Security Groups
-- Load Balancers
-- DNS fundamentals
-
-</details>
-
-<details>
-<summary><b>🔐 Identity & Security</b></summary>
-
-<br/>
-
-- AWS IAM
-- IAM Users
-- IAM Roles
-- IAM Policies
-- Instance Profiles
-- IRSA
-- AWS Secrets Manager
-- Security Groups
-- Least Privilege Access
-
-</details>
-
-<details>
-<summary><b>📦 Containers & Deployment</b></summary>
-
-<br/>
-
-- Amazon ECR
-- Amazon EKS
-- Docker
-- Kubernetes
-- Helm
-- ArgoCD
-- ALB Ingress
-
-</details>
-
-<details>
-<summary><b>📊 Monitoring</b></summary>
-
-<br/>
-
-- Amazon CloudWatch
-- Prometheus
-- Grafana
-- Kubernetes health probes
-- Application monitoring
-
-</details>
-
----
-
-# Flagship Project
-
-## 🔐 Production-Grade DevSecOps Cloud Platform
-
-> A cloud-native DevSecOps platform focused on automated infrastructure,
-> secure application delivery, GitOps deployment and observability.
 
 ### 🎯 Problem
 
-Modern teams need a repeatable way to move application code from:
+Running microservices in Kubernetes requires more than simply creating Pods.
 
-```text
-Developer
-      ↓
-Source Code
-      ↓
-Testing
-      ↓
-Security
-      ↓
-Container Image
-      ↓
-Cloud Infrastructure
-      ↓
-Kubernetes
-      ↓
-Production Monitoring
-```
+Teams must be able to:
 
-without depending on repetitive manual deployment steps.
+- Deploy applications automatically
+- Detect failures
+- Recover workloads
+- Monitor infrastructure
+- Understand Kubernetes errors quickly
 
 ### 💡 Solution
 
-I am building a platform that integrates:
+**OpsPilot** deploys containerized microservices on Amazon EKS with CI/CD, Kubernetes self-healing, Prometheus/Grafana monitoring and automated troubleshooting assistance.
 
-```text
-GitHub
-   ↓
-GitHub Actions
-   ↓
-Testing + Security
-   ↓
-Docker
-   ↓
-Amazon ECR
-   ↓
-ArgoCD
-   ↓
-Amazon EKS
-   ↓
-Prometheus + Grafana
-```
-
----
-
-# Architecture
+### 🏗️ Architecture
 
 ```mermaid
 flowchart TD
 
-    DEV["👨‍💻 Developer"] --> GH["GitHub Repository"]
+    DEV["👨‍💻 Developer"] --> GH["GitHub"]
+
+    GH --> ACTIONS["⚙️ GitHub Actions"]
+
+    ACTIONS --> BUILD["🐳 Docker Build"]
+
+    BUILD --> ECR["📦 Amazon ECR"]
+
+    ECR --> EKS["☸️ Amazon EKS"]
+
+    EKS --> DEP["Kubernetes Deployments"]
+
+    DEP --> PODS["Application Pods"]
+
+    PODS --> PROM["📈 Prometheus"]
+
+    PROM --> GRAF["📊 Grafana"]
+
+    PODS --> OPS["🤖 OpsPilot Diagnostic Engine"]
+
+    OPS --> DIAG["Troubleshooting Suggestions"]
+```
+
+### 🧩 Microservices
+
+```text
+                    ┌─────────────────┐
+                    │     Frontend    │
+                    │      Nginx      │
+                    └────────┬────────┘
+                             │
+              ┌──────────────┼──────────────┐
+              │              │              │
+              ▼              ▼              ▼
+        Auth Service    Task Service    Order Service
+          FastAPI          API              API
+```
+
+### ⚙️ CI/CD Flow
+
+```text
+Developer
+    │
+    ▼
+git push
+    │
+    ▼
+GitHub Actions
+    │
+    ├── Build Docker Image
+    │
+    └── Push Image
+    │
+    ▼
+Amazon ECR
+    │
+    ▼
+Amazon EKS
+```
+
+### ❤️ Kubernetes Self-Healing
+
+Suppose the desired state is:
+
+```text
+Desired Pods = 3
+```
+
+One Pod crashes:
+
+```text
+Current Healthy Pods = 2
+```
+
+Kubernetes compares:
+
+```text
+Desired State = 3
+Actual State  = 2
+```
+
+The ReplicaSet controller creates another Pod:
+
+```text
+2 Pods
+   ↓
+ReplicaSet detects difference
+   ↓
+New Pod created
+   ↓
+3 Pods running again
+```
+
+### 📊 Monitoring
+
+Prometheus collects information including:
+
+- CPU utilization
+- Memory usage
+- Pod availability
+- Pod restart count
+- Application metrics
+
+Grafana provides visualization through dashboards.
+
+### 🤖 Troubleshooting Component
+
+The diagnostic component uses the **Kubernetes Python SDK** to inspect workload state.
+
+It can analyze conditions including:
+
+```text
+CrashLoopBackOff
+ImagePullBackOff
+Pending
+ContainerCreating
+Pod failures
+Restart loops
+```
+
+and provide troubleshooting guidance based on the detected state.
+
+Example:
+
+```text
+Detected:
+ImagePullBackOff
+
+Possible checks:
+→ Verify image name
+→ Verify image tag
+→ Verify ECR authentication
+→ Verify imagePullSecrets / IAM configuration
+```
+
+### 🧰 Technologies
+
+`AWS EKS`
+`Amazon ECR`
+`Docker`
+`Kubernetes`
+`GitHub Actions`
+`Prometheus`
+`Grafana`
+`FastAPI`
+`Nginx`
+`Python`
+`Kubernetes Python SDK`
+
+### 🎯 Skills Demonstrated
+
+- Kubernetes architecture
+- AWS EKS
+- Containerization
+- Microservices
+- CI/CD
+- Monitoring
+- Kubernetes troubleshooting
+- Self-healing workloads
+- Python automation
+- Cloud-native application deployment
+
+</details>
+
+---
+
+# 🔐 03 — Production-Grade DevSecOps Cloud Platform
+
+> **Secure cloud-native application delivery using Infrastructure as Code, CI/CD, GitOps, Kubernetes and observability.**
+
+<div align="center">
+
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-FE733A?style=for-the-badge&logo=argo&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+
+</div>
+
+<details>
+<summary><b>🔐 Click to explore the DevSecOps platform</b></summary>
+
+<br/>
+
+### 🎯 Objective
+
+Design a production-style DevSecOps workflow where infrastructure, security and application delivery are automated.
+
+### 🏗️ Architecture
+
+```mermaid
+flowchart TD
+
+    DEV["👨‍💻 Developer"] --> GH["GitHub"]
 
     GH --> CI["⚙️ GitHub Actions"]
 
-    CI --> TEST["🧪 Automated Tests"]
-    CI --> SEC["🔐 Security Scanning"]
+    CI --> TEST["🧪 Tests"]
+    CI --> SECURITY["🔐 Security Scan"]
     CI --> BUILD["🐳 Docker Build"]
 
     TEST --> BUILD
-    SEC --> BUILD
+    SECURITY --> BUILD
 
     BUILD --> ECR["📦 Amazon ECR"]
 
@@ -300,11 +439,11 @@ flowchart TD
 
     ARGO --> EKS["☸️ Amazon EKS"]
 
-    EKS --> HELM["⛵ Helm Release"]
+    EKS --> HELM["⛵ Helm"]
 
-    HELM --> INGRESS["🌐 ALB Ingress"]
+    HELM --> ALB["🌐 ALB Ingress"]
 
-    INGRESS --> SERVICE["Kubernetes Service"]
+    ALB --> SERVICE["Kubernetes Service"]
 
     SERVICE --> PODS["Application Pods"]
 
@@ -317,349 +456,402 @@ flowchart TD
     PROM --> GRAFANA["📊 Grafana"]
 ```
 
----
-
-## 🚀 Delivery Pipeline
-
-<div align="center">
-
-**CODE**
-
-⬇️
-
-**GITHUB**
-
-⬇️
-
-**CI / TEST**
-
-⬇️
-
-**SECURITY SCAN**
-
-⬇️
-
-**DOCKER IMAGE**
-
-⬇️
-
-**AMAZON ECR**
-
-⬇️
-
-**ARGOCD**
-
-⬇️
-
-**AMAZON EKS**
-
-⬇️
-
-**MONITORING**
-
-</div>
-
----
-
-# Engineering Practices
-
-| Area | Practice |
-|---|---|
-| 🏗️ Infrastructure | Infrastructure as Code using Terraform |
-| 🐳 Containers | Immutable Docker images |
-| 🔁 CI/CD | Automated build, test and deployment |
-| 🔄 GitOps | Git as deployment source of truth |
-| 🔐 Security | Least privilege IAM |
-| 🔑 Secrets | Externalized secrets management |
-| ☸️ Kubernetes | Declarative deployments |
-| ❤️ Reliability | Liveness & readiness probes |
-| 📊 Monitoring | Metrics using Prometheus & Grafana |
-| 📝 Documentation | Architecture and deployment documentation |
-
----
-
-# How I Approach DevOps
+### 🚀 Delivery Flow
 
 ```text
-               ┌───────────────┐
-               │     CODE      │
-               └───────┬───────┘
-                       │
-                       ▼
-               ┌───────────────┐
-               │     TEST      │
-               └───────┬───────┘
-                       │
-                       ▼
-               ┌───────────────┐
-               │    SECURE     │
-               └───────┬───────┘
-                       │
-                       ▼
-               ┌───────────────┐
-               │     BUILD     │
-               └───────┬───────┘
-                       │
-                       ▼
-               ┌───────────────┐
-               │    DEPLOY     │
-               └───────┬───────┘
-                       │
-                       ▼
-               ┌───────────────┐
-               │    OBSERVE    │
-               └───────┬───────┘
-                       │
-                       ▼
-               ┌───────────────┐
-               │    IMPROVE    │
-               └───────────────┘
+CODE
+ │
+ ▼
+GITHUB
+ │
+ ▼
+CI / TEST
+ │
+ ▼
+SECURITY
+ │
+ ▼
+DOCKER
+ │
+ ▼
+ECR
+ │
+ ▼
+ARGOCD
+ │
+ ▼
+EKS
+ │
+ ▼
+MONITORING
 ```
 
----
+### 🔐 Security Concepts
 
-# What I'm Currently Building
-
-<details open>
-<summary><b>🚀 DevSecOps Cloud Platform</b></summary>
-
-<br/>
-
-### Infrastructure
-
-- Terraform
-- AWS VPC
-- Public / Private Subnets
-- IAM
-- EKS
-- ECR
-- Load Balancing
-
-### Application Delivery
-
-- GitHub Actions
-- Docker
-- Helm
-- ArgoCD
-
-### Security
-
-- IAM Least Privilege
+- IAM least privilege
 - IRSA
-- Secrets Manager
+- AWS Secrets Manager
 - Container security scanning
+- CI/CD security gates
+- Private workloads
+- Infrastructure as Code
 
-### Observability
+### 🧰 Technologies
 
-- Prometheus
-- Grafana
-- CloudWatch
-
-</details>
-
----
-
-# DevOps Scenario Knowledge
-
-<details>
-<summary><b>☸️ Kubernetes Troubleshooting</b></summary>
-
-<br/>
-
-Topics I work with:
-
-- Pod Pending
-- CrashLoopBackOff
-- ImagePullBackOff
-- Services and selectors
-- ClusterIP
-- NodePort
-- LoadBalancer
-- Ingress
-- Liveness probes
-- Readiness probes
-- Service Accounts
-- RBAC
-- IRSA
-
-</details>
-
-<details>
-<summary><b>🌐 AWS Networking</b></summary>
-
-<br/>
-
-Understanding traffic flows such as:
-
-```text
-Internet
-   ↓
-Internet Gateway
-   ↓
-Public Subnet
-   ↓
-Application Load Balancer
-   ↓
-Private Subnet
-   ↓
-Application
-```
-
-and outbound private-subnet traffic:
-
-```text
-Private Instance
-       ↓
-Route Table
-       ↓
-NAT Gateway
-       ↓
-Internet Gateway
-       ↓
-Internet
-```
-
-</details>
-
-<details>
-<summary><b>⚙️ CI/CD</b></summary>
-
-<br/>
-
-Typical workflow:
-
-```text
-git push
-   ↓
-GitHub Actions
-   ↓
-Checkout
-   ↓
-Install Dependencies
-   ↓
-Run Tests
-   ↓
-Authenticate to AWS using OIDC
-   ↓
-Docker Build
-   ↓
-Tag Image
-   ↓
-Push to ECR
-   ↓
-GitOps Deployment
-```
+`AWS`
+`Terraform`
+`Docker`
+`Kubernetes`
+`Amazon EKS`
+`Amazon ECR`
+`GitHub Actions`
+`ArgoCD`
+`Helm`
+`Prometheus`
+`Grafana`
 
 </details>
 
 ---
 
-# GitHub Analytics
+# 🪙 04 — Gold & Silver Price Monitoring System
+
+> **Serverless AWS automation that collects precious-metal prices, stores historical records, compares daily changes and automatically emails reports.**
 
 <div align="center">
 
-<img
-  height="170"
-  src="https://github-readme-stats.vercel.app/api?username=harshithrosun2705-star&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true"
-  alt="Harshith's GitHub Stats"
-/>
-
-<img
-  height="170"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshithrosun2705-star&layout=compact&theme=tokyonight&hide_border=true"
-  alt="Top Languages"
-/>
+![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
+![DynamoDB](https://img.shields.io/badge/DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 </div>
+
+<details>
+<summary><b>🪙 Click to explore the serverless monitoring system</b></summary>
 
 <br/>
 
-<div align="center">
+### 🎯 Problem
 
-<img
-  src="https://streak-stats.demolab.com?user=harshithrosun2705-star&theme=tokyonight&hide_border=true"
-  alt="GitHub Streak"
-/>
+Tracking daily Gold and Silver prices manually makes it difficult to immediately identify price movements and maintain historical records.
 
-</div>
+### 💡 Solution
+
+I built an automated serverless pipeline that:
+
+1. Fetches market prices
+2. Retrieves the previous day's data
+3. Calculates the difference
+4. Stores today's data
+5. Generates an HTML report
+6. Emails the report automatically
+
+### 🏗️ Architecture
+
+```mermaid
+flowchart TD
+
+    EB["⏰ EventBridge"] --> L["⚡ AWS Lambda"]
+
+    L --> API["🌐 Gold / Silver API"]
+
+    API --> COMPARE["📊 Price Comparison"]
+
+    DB["🗄️ DynamoDB"] --> COMPARE
+
+    COMPARE --> SAVE["💾 Store Today's Price"]
+
+    SAVE --> DB
+
+    COMPARE --> HTML["📄 HTML Report"]
+
+    HTML --> SES["📧 Amazon SES"]
+
+    SES --> USER["Email Notification"]
+```
+
+### 🔄 Processing Flow
+
+```text
+EventBridge
+     │
+     ▼
+Lambda
+     │
+     ▼
+External Price API
+     │
+     ▼
+Read Previous Price
+     │
+     ▼
+Compare Values
+     │
+     ▼
+Store Today's Data
+     │
+     ▼
+Generate HTML Report
+     │
+     ▼
+SES Email
+```
+
+### 📊 Values Processed
+
+- Gold — 1 gram
+- Gold — 8 grams
+- Silver — 1 gram
+
+Example comparison:
+
+```text
+Today's Price      ₹X
+Yesterday's Price  ₹Y
+                    │
+                    ▼
+Difference          ₹X - ₹Y
+                    │
+                    ▼
+Increase / Decrease
+```
+
+### 🧰 Technologies
+
+`AWS Lambda`
+`Amazon DynamoDB`
+`Amazon SES`
+`Amazon EventBridge`
+`Amazon CloudWatch`
+`Python`
+`Boto3`
+`urllib3`
+`REST API`
+
+### 🎯 Skills Demonstrated
+
+- Serverless architecture
+- Lambda
+- DynamoDB
+- REST API integration
+- Python automation
+- Event-driven systems
+- Data persistence
+- Automated reporting
+- Email notifications
+
+</details>
 
 ---
 
-## 📈 Contribution Activity
+# ❤️ 05 — IoT Health Monitoring System
+
+> **Sensor-based IoT system designed to capture and process health and motion information using an ESP32.**
 
 <div align="center">
 
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=harshithrosun2705-star&theme=tokyo-night&hide_border=true&area=true"
-  width="100%"
-  alt="GitHub Activity Graph"
-/>
+![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
+![C](https://img.shields.io/badge/Embedded_C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![IoT](https://img.shields.io/badge/IoT-Embedded_Systems-blue?style=for-the-badge)
 
 </div>
 
----
+<details>
+<summary><b>❤️ Click to explore the IoT system</b></summary>
 
-# Current Learning Roadmap
+<br/>
+
+### 🎯 Objective
+
+Build an embedded monitoring system capable of collecting health and motion-related sensor data in real time.
+
+### 🏗️ Architecture
 
 ```mermaid
 flowchart LR
 
-    A["AWS"] --> B["Terraform"]
-    B --> C["Docker"]
-    C --> D["Kubernetes"]
-    D --> E["CI/CD"]
-    E --> F["GitOps"]
-    F --> G["DevSecOps"]
-    G --> H["Observability"]
-    H --> I["Production Engineering"]
+    TEMP["🌡️ DS18B20"] --> ESP["ESP32"]
+    HEART["❤️ MAX30102"] --> ESP
+    MOTION["🏃 MPU6050"] --> ESP
+
+    ESP --> PROCESS["⚙️ Process Sensor Data"]
+
+    PROCESS --> OUTPUT["📊 Display / Transmit Results"]
+```
+
+### 🔬 Sensors
+
+#### 🌡️ DS18B20
+
+Used for:
+
+```text
+Body Temperature
+```
+
+#### ❤️ MAX30102
+
+Used for:
+
+```text
+Heart Rate
+SpO₂
+```
+
+#### 🏃 MPU6050
+
+Used for:
+
+```text
+Motion Detection
+Fall Detection
+```
+
+### ⚙️ Data Flow
+
+```text
+Sensors
+   │
+   ▼
+ESP32
+   │
+   ▼
+Read Raw Values
+   │
+   ▼
+Process Sensor Data
+   │
+   ▼
+Generate Measurements
+   │
+   ▼
+Display / Transmit Results
+```
+
+### 🧰 Technologies
+
+`ESP32`
+`DS18B20`
+`MAX30102`
+`MPU6050`
+`Arduino IDE`
+`Embedded C`
+
+### 🎯 Skills Demonstrated
+
+- Embedded systems
+- IoT architecture
+- Sensor integration
+- Microcontroller programming
+- Hardware/software integration
+- Real-time data acquisition
+
+</details>
+
+---
+
+# 🧠 What These Projects Demonstrate
+
+<div align="center">
+
+| ☁️ Cloud | ⚙️ DevOps | 🐍 Automation | 🔐 Security | 📊 Monitoring |
+|---|---|---|---|---|
+| AWS | CI/CD | Python | IAM | Prometheus |
+| Serverless | GitHub Actions | Boto3 | IRSA | Grafana |
+| EKS | Docker | API Integration | Secrets | CloudWatch |
+| DynamoDB | Kubernetes | Event Automation | DevSecOps | Metrics |
+
+</div>
+
+---
+
+# 🏗️ Engineering Domains
+
+```mermaid
+mindmap
+  root((Harshith))
+    Cloud
+      AWS
+      Serverless
+      EKS
+      Networking
+    DevOps
+      CI/CD
+      Docker
+      Kubernetes
+      GitOps
+    Infrastructure
+      Terraform
+      IaC
+      Automation
+    Programming
+      Python
+      Bash
+      Boto3
+    Observability
+      Prometheus
+      Grafana
+      CloudWatch
+    Security
+      IAM
+      IRSA
+      Secrets
+      DevSecOps
+    IoT
+      ESP32
+      Sensors
+      Embedded C
 ```
 
 ---
 
-# Engineering Mindset
+# ⚙️ Engineering Practices
 
-<div align="center">
-
-### Automate repetitive work.
-
-### Build reproducible infrastructure.
-
-### Secure every layer.
-
-### Observe everything.
-
-### Improve continuously.
-
-</div>
+| Area | Practice |
+|---|---|
+| 🏗️ Infrastructure | Infrastructure as Code |
+| ☁️ Cloud | AWS architecture |
+| 🐍 Automation | Python & Boto3 |
+| 🐳 Containers | Docker |
+| ☸️ Orchestration | Kubernetes |
+| 🔁 CI/CD | Automated build and delivery |
+| 🔄 GitOps | Declarative deployments |
+| 🔐 Security | Least privilege IAM |
+| 🔑 Secrets | External secrets management |
+| ❤️ Reliability | Kubernetes self-healing & probes |
+| 📊 Observability | Metrics and dashboards |
+| 💰 FinOps | Cloud cost optimization |
+| ⚡ Serverless | Event-driven AWS architectures |
+| 📝 Documentation | Architecture and implementation documentation |
 
 ---
 
-# Connect With Me
+## 🎯 Project Focus
 
 <div align="center">
 
-<a href="https://github.com/harshithrosun2705-star">
-  <img src="https://img.shields.io/badge/GitHub-harshithrosun2705--star-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
+```text
+                    HARSHITH'S ENGINEERING PORTFOLIO
 
-<!--
-Replace YOUR_LINKEDIN_USERNAME below with your real LinkedIn username.
-Example:
-https://www.linkedin.com/in/harshith-roshan/
--->
+                              ☁️ AWS
+                                │
+                ┌───────────────┼───────────────┐
+                │               │               │
+                ▼               ▼               ▼
+            DEVOPS          SERVERLESS        FINOPS
+                │               │               │
+                ▼               ▼               ▼
+         Kubernetes/EKS      Lambda        Cost Optimizer
+                │               │
+                ▼               ▼
+           CI/CD/GitOps      DynamoDB
+                │
+                ▼
+         Monitoring/Security
 
-<a href="https://www.linkedin.com/in/YOUR_LINKEDIN_USERNAME/">
-  <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+                     + Python Automation
 
-</div>
-
-<br/>
-
-<div align="center">
-
-### ☁️ Cloud • ⚙️ Automate • 🚀 Deploy • 📊 Observe • 🔐 Secure
-
-**Building infrastructure that is reproducible, reliable and scalable.**
+                     + IoT / Embedded
+```
 
 </div>
