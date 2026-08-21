@@ -1,70 +1,73 @@
-<!-- ===================================================== -->
-<!--                 HARSHITH ROSUN W                      -->
-<!--            DEVOPS • CLOUD • AUTOMATION                -->
-<!-- ===================================================== -->
-
-<!-- ================= HERO ================= -->
+<!-- ========================================================= -->
+<!--                 HARSHITH ROSUN W                          -->
+<!--          DEVOPS • CLOUD • AUTOMATION                     -->
+<!-- ========================================================= -->
 
 <p align="center">
   <img
     width="100%"
-    src="https://capsule-render.vercel.app/api?type=venom&height=260&color=0:020617,40:0f172a,70:312e81,100:0891b2&text=HARSHITH%20ROSUN%20W&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=DEVOPS%20%E2%80%A2%20CLOUD%20%E2%80%A2%20AUTOMATION&descAlignY=58&descSize=18"
+    src="https://capsule-render.vercel.app/api?type=venom&height=250&color=0:020617,45:172554,75:0369a1,100:020617&text=HARSHITH%20ROSUN%20W&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=DEVOPS%20%E2%80%A2%20CLOUD%20%E2%80%A2%20AUTOMATION&descAlignY=58&descSize=18"
+    alt="Harshith Rosun W"
   />
 </p>
 
 <div align="center">
 
 <img
-  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=2800&pause=700&color=22D3EE&center=true&vCenter=true&width=850&lines=Building+Cloud-Native+Infrastructure+%E2%98%81%EF%B8%8F;Automating+Infrastructure+with+Terraform+%F0%9F%8F%97%EF%B8%8F;Deploying+Applications+with+Kubernetes+%E2%98%B8%EF%B8%8F;Engineering+CI%2FCD+%26+GitOps+Workflows+%E2%9A%99%EF%B8%8F;Monitoring+Systems+with+Prometheus+%26+Grafana+%F0%9F%93%8A;Building+Secure+DevSecOps+Pipelines+%F0%9F%94%90"
-  alt="Typing SVG"
+  src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=21&duration=2800&pause=750&color=22D3EE&center=true&vCenter=true&width=850&lines=Building+Cloud+Infrastructure+%E2%98%81%EF%B8%8F;Automating+Infrastructure+with+Terraform+%F0%9F%8F%97%EF%B8%8F;Shipping+Containers+with+Docker+%26+Kubernetes+%E2%98%B8%EF%B8%8F;Engineering+CI%2FCD+%26+GitOps+Workflows+%E2%9A%99%EF%B8%8F;Exploring+DevSecOps+%26+Cloud+Security+%F0%9F%94%90;Automate+%E2%80%A2+Deploy+%E2%80%A2+Observe+%E2%80%A2+Improve"
+  alt="Typing introduction"
 />
 
-<br/>
+<br/><br/>
 
 <a href="https://github.com/harshithrosun2705-star">
   <img src="https://img.shields.io/badge/GitHub-HARSHITH_ROSUN_W-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <a href="https://www.linkedin.com/in/harshith-rosun-w-a3a29a305/">
-  <img src="https://img.shields.io/badge/LinkedIn-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/LinkedIn-LET'S_CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<img src="https://komarev.com/ghpvc/?username=harshithrosun2705-star&style=for-the-badge&color=0891b2&label=PROFILE+VIEWS"/>
+<img
+  src="https://komarev.com/ghpvc/?username=harshithrosun2705-star&style=for-the-badge&color=0891b2&label=PROFILE+VIEWS"
+  alt="Profile views"
+/>
 
 </div>
 
----
+<br/>
+
+<!-- ================= NAVIGATION ================= -->
 
 <div align="center">
 
-### `./navigate`
+### `~/navigate`
 
-[⚡ Identity](#-system-identity) •
-[🛠 Stack](#-technology-arsenal) •
-[🚀 Projects](#-mission-control) •
-[⚙️ DevOps](#️-devops-engine) •
-[📡 Stats](#-live-github-telemetry) •
-[🐍 Activity](#-contribution-stream) •
-[🤝 Connect](#-establish-connection)
+[⚡ Me](#identity) •
+[🛠 Stack](#stack) •
+[🚀 Projects](#projects) •
+[⚙️ Pipeline](#pipeline) •
+[📡 Live Stats](#stats) •
+[🌐 Map](#engineering-map) •
+[🤝 Connect](#connect)
 
 </div>
 
 ---
 
-# ⚡ System Identity
+<a id="identity"></a>
+
+# ⚡ Hey, I'm Harshith
 
 ```console
-harshith@devops:~$ whoami
+harshith@cloud:~$ whoami
 
 HARSHITH ROSUN W
 
-Role:
-DevOps & Cloud Engineering
-
-harshith@devops:~$ cat focus.txt
+harshith@cloud:~$ current-focus
 
 ☁️  AWS Cloud
-🏗️  Infrastructure as Code
+🏗️  Terraform
 🐳  Docker
 ☸️  Kubernetes
 ⚙️  CI/CD
@@ -73,80 +76,61 @@ harshith@devops:~$ cat focus.txt
 📊  Observability
 🐍  Python Automation
 
-harshith@devops:~$ echo $MISSION
+harshith@cloud:~$ mission
 
-"Build infrastructure that is
- automated,
- reproducible,
- observable,
- secure
- and scalable."
+Build → Automate → Secure → Deploy → Observe → Improve
 ```
 
 <div align="center">
 
-### From `git push` → `production`
+### I enjoy turning this...
+
+`manual setup` → `repeatable infrastructure`
+
+`code` → `automated pipelines`
+
+`containers` → `reliable workloads`
+
+`cloud bills` → `actionable insights`
+
+`errors` → `observable systems`
 
 </div>
 
-```text
-CODE
- │
- ▼
-TEST
- │
- ▼
-SECURE
- │
- ▼
-BUILD
- │
- ▼
-SHIP
- │
- ▼
-DEPLOY
- │
- ▼
-OBSERVE
- │
- ▼
-IMPROVE
- └────────────────────► ♻️
-```
-
 ---
 
-# 🛠 Technology Arsenal
+<a id="stack"></a>
+
+# 🛠 My Toolbox
 
 <div align="center">
 
-### ☁️ Cloud • 🏗 Infrastructure • 🐳 Containers • ⚙️ Automation
-
-<br/>
-
-<img src="https://skillicons.dev/icons?i=aws,terraform,docker,kubernetes,linux,git,github,githubactions,jenkins,python,bash&perline=11&theme=dark"/>
+<img
+  src="https://skillicons.dev/icons?i=aws,terraform,docker,kubernetes,linux,git,github,jenkins,python,bash&perline=10&theme=dark"
+  alt="Technology stack"
+/>
 
 <br/><br/>
 
-![EKS](https://img.shields.io/badge/Amazon_EKS-FF9900?style=for-the-badge&logo=amazoneks&logoColor=white)
-![ECR](https://img.shields.io/badge/Amazon_ECR-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-FE733A?style=for-the-badge&logo=argo&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Amazon EKS](https://img.shields.io/badge/Amazon_EKS-Kubernetes-FF9900?style=flat-square)
+![Amazon ECR](https://img.shields.io/badge/Amazon_ECR-Registry-FF9900?style=flat-square)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-GitOps-FE733A?style=flat-square&logo=argo&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-Packaging-0F1689?style=flat-square&logo=helm&logoColor=white)
 
 <br/>
 
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-Metrics-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-Dashboards-F46800?style=flat-square&logo=grafana&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-009688?style=flat-square&logo=fastapi&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-Web_Server-009639?style=flat-square&logo=nginx&logoColor=white)
 
 </div>
 
 <br/>
 
 <details>
-<summary><b>☁️ AWS Cloud Stack</b></summary>
+<summary><b>☁️ AWS</b> — click to expand</summary>
 
 <br/>
 
@@ -161,18 +145,16 @@ AWS
 │
 ├── Networking
 │   ├── VPC
-│   ├── Public Subnet
-│   ├── Private Subnet
+│   ├── Public / Private Subnets
 │   ├── Route Tables
 │   ├── Internet Gateway
 │   ├── NAT Gateway
 │   ├── Security Groups
 │   └── Application Load Balancer
 │
-├── Data / Storage
-│   ├── EBS
-│   ├── ECR
-│   └── DynamoDB
+├── Containers
+│   ├── EKS
+│   └── ECR
 │
 ├── Security
 │   ├── IAM
@@ -181,17 +163,18 @@ AWS
 │   ├── IRSA
 │   └── Secrets Manager
 │
-└── Automation / Monitoring
+└── Serverless / Monitoring
+    ├── Lambda
     ├── EventBridge
     ├── SES
-    ├── CloudWatch
-    └── Lambda
+    ├── DynamoDB
+    └── CloudWatch
 ```
 
 </details>
 
 <details>
-<summary><b>☸️ Kubernetes & Cloud Native</b></summary>
+<summary><b>☸️ Kubernetes</b> — click to expand</summary>
 
 <br/>
 
@@ -202,16 +185,16 @@ Kubernetes
 ├── Deployments
 ├── ReplicaSets
 ├── Services
+├── Ingress
 ├── ConfigMaps
 ├── Secrets
-├── Ingress
 ├── Service Accounts
 ├── RBAC
 ├── Liveness Probes
 ├── Readiness Probes
 └── Self-Healing
 
-Platform
+Cloud Native
 │
 ├── Amazon EKS
 ├── Amazon ECR
@@ -222,26 +205,27 @@ Platform
 </details>
 
 <details>
-<summary><b>⚙️ CI/CD & Automation</b></summary>
+<summary><b>⚙️ DevOps</b> — click to expand</summary>
 
 <br/>
 
 ```text
-Source Control
-└── Git / GitHub
+Version Control
+└── Git + GitHub
 
 CI/CD
 ├── GitHub Actions
 └── Jenkins
 
+Infrastructure as Code
+└── Terraform
+
 Containers
 └── Docker
 
-Infrastructure
-└── Terraform
-
 GitOps
-└── ArgoCD
+├── ArgoCD
+└── Helm
 
 Automation
 ├── Python
@@ -252,409 +236,251 @@ Automation
 </details>
 
 <details>
-<summary><b>📊 Observability</b></summary>
+<summary><b>📊 Observability</b> — click to expand</summary>
 
 <br/>
 
 ```text
-APPLICATION
-     │
-     ├────────► Prometheus
-     │               │
-     │               ▼
-     │            Metrics
-     │
-     ├────────► Grafana
-     │               │
-     │               ▼
-     │           Dashboards
-     │
-     └────────► CloudWatch
-                     │
-                     ▼
-                AWS Monitoring
+APPLICATION / CLUSTER
+        │
+        ├── Prometheus
+        │      └── Metrics
+        │
+        ├── Grafana
+        │      └── Dashboards
+        │
+        └── CloudWatch
+               └── AWS Monitoring
 ```
 
 </details>
 
 ---
 
-# 🚀 Mission Control
+<a id="projects"></a>
+
+# 🚀 Things I've Built
 
 <div align="center">
 
-## Featured Engineering Projects
+### Real problems. Real automation. Real cloud.
 
-`CLOUD` • `DEVOPS` • `KUBERNETES` • `FINOPS` • `SERVERLESS` • `AUTOMATION`
+`AWS` • `Kubernetes` • `FinOps` • `Serverless` • `DevSecOps` • `IoT`
 
 </div>
 
----
+<br/>
+
+<!-- ================= PROJECT 1 ================= -->
 
 <details open>
 
 <summary>
-
-## 💰 01 · AWS Multi-Region Cost Optimization Platform ⭐
-
-**FinOps • AWS Serverless • Python Automation**
-
+<b>💰 AWS Multi-Region Cost Optimization Platform</b> ⭐
 </summary>
 
 <br/>
 
+> Serverless FinOps automation that scans AWS regions for potentially unused resources and turns them into actionable cost insights.
+
 <div align="center">
 
-![Status](https://img.shields.io/badge/STATUS-COMPLETED-00C853?style=for-the-badge)
-![AWS](https://img.shields.io/badge/AWS-SERVERLESS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Python](https://img.shields.io/badge/PYTHON-BOTO3-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FinOps](https://img.shields.io/badge/FOCUS-FINOPS-0891B2?style=for-the-badge)
+![Completed](https://img.shields.io/badge/STATUS-COMPLETED-00C853?style=flat-square)
+![AWS](https://img.shields.io/badge/AWS-Serverless-FF9900?style=flat-square)
+![Python](https://img.shields.io/badge/Python-Boto3-3776AB?style=flat-square&logo=python&logoColor=white)
+![FinOps](https://img.shields.io/badge/Focus-FinOps-0891B2?style=flat-square)
 
 </div>
 
-### `> mission`
-
-Automatically scan AWS regions, identify potentially unused resources, estimate monthly savings and deliver an HTML optimization report.
-
-### `> architecture`
+### How it flows
 
 ```mermaid
 flowchart LR
-
-    A["⏰ EventBridge"]
-    B["⚡ Lambda"]
-    C["🌍 Multi-Region Scanner"]
-    D["🔍 Resource Analyzer"]
-    E["💰 Cost Engine"]
-    F["📄 HTML Report"]
-    G["📧 SES"]
-
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
+    A["EventBridge"] --> B["AWS Lambda"]
+    B --> C["Region Scanner"]
+    C --> D["Resource Analysis"]
+    D --> E["Cost Estimation"]
+    E --> F["HTML Report"]
+    F --> G["Amazon SES"]
 ```
 
-### `> scanner.targets`
+### What it checks
 
 ```text
-AWS REGIONS
-│
-├── EC2 Instances
-├── EBS Volumes
-├── EBS Snapshots
-├── Elastic IPs
-├── NAT Gateways
-└── Load Balancers
+🌍 AWS Regions
+   │
+   ├── Stopped EC2 Instances
+   ├── Unattached EBS Volumes
+   ├── Old EBS Snapshots
+   ├── Unused Elastic IPs
+   ├── Idle NAT Gateways
+   └── Idle Load Balancers
 ```
 
-### `> detection.engine`
+### What I worked with
+
+`AWS Lambda` `EventBridge` `CloudWatch` `SES` `IAM`
+
+`Python` `Boto3` `FinOps` `HTML Reporting`
+
+### Why I built it
+
+Cloud resources are easy to create but also easy to forget.
+
+The goal was to automate the boring part:
 
 ```text
-Stopped EC2
-      ↓
-Potential unnecessary compute cost
-
-Unattached EBS
-      ↓
-Potential storage saving
-
-Old Snapshots
-      ↓
-Review retention
-
-Unused Elastic IP
-      ↓
-Potential release
-
-Idle NAT Gateway
-      ↓
-Review networking cost
-
-Idle Load Balancer
-      ↓
-Review unused infrastructure
+SCAN → FIND → ESTIMATE → REPORT → NOTIFY
 ```
-
-### `> execution`
-
-```text
-EVENTBRIDGE
-     │
-     ▼
-AWS LAMBDA
-     │
-     ▼
-SCAN AWS REGIONS
-     │
-     ▼
-RESOURCE ANALYSIS
-     │
-     ▼
-COST ESTIMATION
-     │
-     ▼
-HTML REPORT
-     │
-     ▼
-SES EMAIL
-```
-
-### `> stack`
-
-`AWS Lambda`
-`EventBridge`
-`CloudWatch`
-`SES`
-`IAM`
-`Python`
-`Boto3`
-`FinOps`
-
-### `> demonstrated`
-
-✅ Multi-region AWS automation  
-✅ Serverless architecture  
-✅ Cloud cost optimization  
-✅ Python & Boto3 automation  
-✅ Event-driven systems  
-✅ IAM permissions  
-✅ Automated reporting
-
-<br/>
-
-<a href="https://github.com/harshithrosun2705-star/aws-multi-region-cost-optimizer">
-<img src="https://img.shields.io/badge/VIEW_PROJECT-%E2%86%92-181717?style=for-the-badge&logo=github"/>
-</a>
 
 </details>
 
 ---
 
+<!-- ================= PROJECT 2 ================= -->
+
 <details>
 
 <summary>
-
-## 🤖 02 · OpsPilot
-
-**Kubernetes Self-Healing & Intelligent Troubleshooting**
-
+<b>🤖 OpsPilot</b> — Kubernetes Self-Healing & Troubleshooting
 </summary>
 
 <br/>
 
+> A Kubernetes operations project combining microservices, CI/CD, monitoring, workload recovery and automated troubleshooting guidance.
+
 <div align="center">
 
-![Status](https://img.shields.io/badge/STATUS-COMPLETED-00C853?style=for-the-badge)
-![Kubernetes](https://img.shields.io/badge/KUBERNETES-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![EKS](https://img.shields.io/badge/AWS-EKS-FF9900?style=for-the-badge&logo=amazoneks&logoColor=white)
-![SRE](https://img.shields.io/badge/FOCUS-SRE-7C3AED?style=for-the-badge)
+![Completed](https://img.shields.io/badge/STATUS-COMPLETED-00C853?style=flat-square)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-EKS-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Monitoring](https://img.shields.io/badge/Monitoring-Prometheus_%2B_Grafana-F46800?style=flat-square)
+![Python](https://img.shields.io/badge/Automation-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 </div>
 
-### `> mission`
-
-Operate containerized microservices using Kubernetes with:
-
-```text
-SELF-HEALING
-      +
-CI/CD
-      +
-MONITORING
-      +
-TROUBLESHOOTING AUTOMATION
-```
-
-### `> architecture`
+### Platform flow
 
 ```mermaid
 flowchart LR
-
-    DEV["👨‍💻 Developer"]
-    GH["GitHub"]
-    CI["⚙️ GitHub Actions"]
-    DK["🐳 Docker"]
-    ECR["📦 ECR"]
-    EKS["☸️ EKS"]
-    PROM["📡 Prometheus"]
-    GRAF["📊 Grafana"]
-    OPS["🤖 OpsPilot"]
-
-    DEV --> GH
-    GH --> CI
-    CI --> DK
-    DK --> ECR
-    ECR --> EKS
-
-    EKS --> PROM
-    PROM --> GRAF
-
-    EKS --> OPS
+    A["Developer"] --> B["GitHub"]
+    B --> C["GitHub Actions"]
+    C --> D["Docker Build"]
+    D --> E["Amazon ECR"]
+    E --> F["Amazon EKS"]
+    F --> G["Prometheus"]
+    G --> H["Grafana"]
+    F --> I["OpsPilot Diagnostics"]
 ```
 
-### `> microservices`
+### Microservices
 
 ```text
-                    ┌───────────────┐
-                    │     NGINX     │
-                    │    FRONTEND   │
-                    └───────┬───────┘
-                            │
-              ┌─────────────┼─────────────┐
-              │             │             │
-              ▼             ▼             ▼
-        AUTH SERVICE    TASK SERVICE   ORDER SERVICE
-          FastAPI
+                      NGINX
+                    FRONTEND
+                        │
+         ┌──────────────┼──────────────┐
+         │              │              │
+         ▼              ▼              ▼
+   AUTH SERVICE    TASK SERVICE    ORDER SERVICE
+      FastAPI
 ```
 
-### `> kubernetes.self_heal()`
+### Self-healing idea
 
 ```text
-Desired Replicas = 3
-        │
-        ▼
-Running Pods = 3
-        │
-        ▼
+Desired Pods = 3
+Actual Pods  = 2
 
-One Pod Crashes ✕
+       │
+       ▼
 
-        │
-        ▼
+ReplicaSet notices the difference
 
-Actual = 2
-Desired = 3
+       │
+       ▼
 
-        │
-        ▼
+Replacement Pod created
 
-ReplicaSet Controller
+       │
+       ▼
 
-        │
-        ▼
-
-Creates Replacement Pod
-
-        │
-        ▼
-
-Healthy Pods = 3 ✓
+Actual Pods = 3 ✓
 ```
 
-### `> opspilot.analyze()`
+### OpsPilot troubleshooting
 
 ```text
 CrashLoopBackOff
-├── Check application logs
-├── Check exit code
-├── Check environment variables
-└── Check probes
-
+├── inspect logs
+├── inspect exit code
+├── verify environment
+└── verify probes
 
 ImagePullBackOff
-├── Check image name
-├── Check image tag
-├── Check ECR access
-└── Check authentication
-
+├── verify image
+├── verify tag
+├── verify ECR permissions
+└── verify authentication
 
 Pending
-├── Check node resources
-├── Check node selector
-├── Check requests / limits
-└── Check scheduling events
+├── inspect node capacity
+├── inspect resource requests
+├── inspect node selector
+└── inspect scheduler events
 ```
 
-### `> stack`
+### Stack
 
-`Amazon EKS`
-`Amazon ECR`
-`Docker`
-`Kubernetes`
-`GitHub Actions`
-`Prometheus`
-`Grafana`
-`FastAPI`
-`Nginx`
-`Python`
-`Kubernetes Python SDK`
+`AWS EKS` `ECR` `Docker` `Kubernetes`
 
-<br/>
+`GitHub Actions` `Prometheus` `Grafana`
 
-<a href="https://github.com/harshithrosun2705-star/opspilot-kubernetes-platform">
-<img src="https://img.shields.io/badge/VIEW_OPSPILOT-%E2%86%92-181717?style=for-the-badge&logo=github"/>
-</a>
+`FastAPI` `Nginx` `Python` `Kubernetes Python SDK`
 
 </details>
 
 ---
 
+<!-- ================= PROJECT 3 ================= -->
+
 <details>
 
 <summary>
-
-## 🔐 03 · Production DevSecOps Cloud Platform
-
-**AWS • Terraform • Kubernetes • GitOps • Security**
-
+<b>🔐 Production DevSecOps Cloud Platform</b>
 </summary>
 
 <br/>
 
+> A cloud-native delivery platform connecting Infrastructure as Code, CI/CD, GitOps, Kubernetes, security and observability.
+
 <div align="center">
 
-![Terraform](https://img.shields.io/badge/TERRAFORM-IAC-844FBA?style=for-the-badge&logo=terraform&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GITHUB_ACTIONS-CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/ARGOCD-GITOPS-FE733A?style=for-the-badge&logo=argo&logoColor=white)
-![DevSecOps](https://img.shields.io/badge/DEVSECOPS-SECURITY-7C3AED?style=for-the-badge)
+![Terraform](https://img.shields.io/badge/Terraform-IaC-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-GitOps-FE733A?style=flat-square&logo=argo&logoColor=white)
+![Security](https://img.shields.io/badge/DevSecOps-Security-7C3AED?style=flat-square)
 
 </div>
 
-### `> mission`
-
-Build a production-style DevSecOps delivery platform where infrastructure, deployment and security are automated.
-
-### `> architecture`
+### Delivery architecture
 
 ```mermaid
 flowchart LR
-
-    G["GitHub"]
-    A["GitHub Actions"]
-
-    TEST["🧪 Test"]
-    SEC["🔐 Scan"]
-    BUILD["🐳 Build"]
-
-    ECR["Amazon ECR"]
-    ARGO["ArgoCD"]
-    EKS["Amazon EKS"]
-    HELM["Helm"]
-    ALB["ALB Ingress"]
-    POD["Application Pods"]
-    MON["Prometheus / Grafana"]
-
-    G --> A
-
-    A --> TEST
-    A --> SEC
-
-    TEST --> BUILD
-    SEC --> BUILD
-
-    BUILD --> ECR
-    ECR --> ARGO
-    ARGO --> EKS
-    EKS --> HELM
-    HELM --> ALB
-    ALB --> POD
-    POD --> MON
+    A["GitHub"] --> B["GitHub Actions"]
+    B --> C["Tests"]
+    B --> D["Security Scan"]
+    C --> E["Docker Build"]
+    D --> E
+    E --> F["Amazon ECR"]
+    F --> G["ArgoCD"]
+    G --> H["Amazon EKS"]
+    H --> I["Helm"]
+    I --> J["ALB Ingress"]
+    J --> K["Application Pods"]
+    K --> L["Prometheus and Grafana"]
 ```
 
-### `> delivery`
+### Pipeline
 
 ```text
 CODE
@@ -663,34 +489,31 @@ CODE
 TEST
  │
  ▼
-SECURITY SCAN
+SECURITY
  │
  ▼
-DOCKER BUILD
+BUILD
  │
  ▼
-AMAZON ECR
+ECR
  │
  ▼
 ARGOCD
  │
  ▼
-AMAZON EKS
+EKS
  │
  ▼
 HELM
  │
  ▼
-ALB
- │
- ▼
 APPLICATION
  │
  ▼
-PROMETHEUS + GRAFANA
+OBSERVABILITY
 ```
 
-### `> security`
+### Security focus
 
 ```text
 IAM Least Privilege
@@ -698,242 +521,156 @@ IRSA
 AWS Secrets Manager
 Container Security
 CI/CD Security Gates
-Private Infrastructure
-Terraform IaC
+Infrastructure as Code
 ```
 
-### `> stack`
+### Stack
 
-`AWS`
-`Terraform`
-`Docker`
-`Kubernetes`
-`EKS`
-`ECR`
-`GitHub Actions`
-`ArgoCD`
-`Helm`
-`Prometheus`
-`Grafana`
+`AWS` `Terraform` `Docker` `Kubernetes`
 
-<br/>
+`EKS` `ECR` `GitHub Actions`
 
-<a href="https://github.com/harshithrosun2705-star/devsecops-cloud-platform">
-<img src="https://img.shields.io/badge/VIEW_PLATFORM-%E2%86%92-181717?style=for-the-badge&logo=github"/>
-</a>
+`ArgoCD` `Helm` `Prometheus` `Grafana`
 
 </details>
 
 ---
 
+<!-- ================= PROJECT 4 ================= -->
+
 <details>
 
 <summary>
-
-## 🪙 04 · Gold & Silver Price Monitoring System
-
-**Serverless • Event-Driven • API Automation**
-
+<b>🪙 Gold & Silver Price Monitoring System</b>
 </summary>
 
 <br/>
 
+> A serverless AWS workflow that collects daily prices, compares historical data and automatically emails the result.
+
 <div align="center">
 
-![Lambda](https://img.shields.io/badge/AWS-LAMBDA-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
-![DynamoDB](https://img.shields.io/badge/DATABASE-DYNAMODB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
-![Python](https://img.shields.io/badge/AUTOMATION-PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Lambda](https://img.shields.io/badge/AWS-Lambda-FF9900?style=flat-square)
+![DynamoDB](https://img.shields.io/badge/AWS-DynamoDB-4053D6?style=flat-square)
+![Python](https://img.shields.io/badge/Python-Automation-3776AB?style=flat-square&logo=python&logoColor=white)
 
 </div>
 
-### `> mission`
-
-Fetch daily Gold and Silver prices automatically, maintain historical values, compare price changes and email the result.
-
-### `> architecture`
+### Architecture
 
 ```mermaid
 flowchart LR
-
-    EB["⏰ EventBridge"]
-    L["⚡ Lambda"]
-    API["🌐 Price API"]
-    DB["🗄️ DynamoDB"]
-    CMP["📊 Compare Prices"]
-    REPORT["📄 HTML Report"]
-    SES["📧 SES"]
-
-    EB --> L
-    L --> API
-    API --> CMP
-
-    DB --> CMP
-
-    CMP --> DB
-    CMP --> REPORT
-    REPORT --> SES
+    A["EventBridge"] --> B["AWS Lambda"]
+    B --> C["Price API"]
+    C --> D["Compare Prices"]
+    E["DynamoDB"] --> D
+    D --> E
+    D --> F["HTML Report"]
+    F --> G["Amazon SES"]
 ```
 
-### `> pipeline`
+### Daily flow
 
 ```text
-FETCH TODAY'S PRICE
-        │
-        ▼
-READ YESTERDAY'S PRICE
-        │
-        ▼
-CALCULATE DIFFERENCE
-        │
-        ▼
-INCREASE / DECREASE
-        │
-        ▼
+FETCH TODAY
+    │
+    ▼
+READ YESTERDAY
+    │
+    ▼
+COMPARE
+    │
+    ▼
 STORE TODAY
-        │
-        ▼
-GENERATE HTML
-        │
-        ▼
+    │
+    ▼
+CREATE REPORT
+    │
+    ▼
 SEND EMAIL
 ```
 
-### `> monitored`
+### Stack
 
-```text
-Gold
-├── 1 Gram
-└── 8 Gram
+`Lambda` `DynamoDB` `SES` `EventBridge`
 
-Silver
-└── 1 Gram
-```
-
-### `> stack`
-
-`AWS Lambda`
-`DynamoDB`
-`SES`
-`EventBridge`
-`CloudWatch`
-`Python`
-`Boto3`
-`urllib3`
-`REST API`
-
-<br/>
-
-<a href="https://github.com/harshithrosun2705-star/serverless-metal-price-monitor">
-<img src="https://img.shields.io/badge/VIEW_PROJECT-%E2%86%92-181717?style=for-the-badge&logo=github"/>
-</a>
+`CloudWatch` `Python` `Boto3` `REST API`
 
 </details>
 
 ---
+
+<!-- ================= PROJECT 5 ================= -->
 
 <details>
 
 <summary>
-
-## ❤️ 05 · IoT Health Monitoring System
-
-**ESP32 • Sensors • Embedded Systems**
-
+<b>❤️ IoT Health Monitoring System</b>
 </summary>
 
 <br/>
 
+> ESP32-based sensor system for health and motion-related data acquisition.
+
 <div align="center">
 
-![ESP32](https://img.shields.io/badge/ESP32-IOT-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
-![Arduino](https://img.shields.io/badge/ARDUINO-00979D?style=for-the-badge&logo=arduino&logoColor=white)
-![Embedded C](https://img.shields.io/badge/EMBEDDED-C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![ESP32](https://img.shields.io/badge/ESP32-IoT-E7352C?style=flat-square)
+![Arduino](https://img.shields.io/badge/Arduino-Embedded-00979D?style=flat-square&logo=arduino&logoColor=white)
+![C](https://img.shields.io/badge/Embedded-C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 
 </div>
 
-### `> mission`
-
-Monitor health and motion-related sensor data using an ESP32-based embedded system.
-
-### `> architecture`
+### Sensor architecture
 
 ```mermaid
 flowchart LR
-
-    TEMP["🌡️ DS18B20"]
-    HEART["❤️ MAX30102"]
-    MOTION["🏃 MPU6050"]
-
-    ESP["ESP32"]
-
-    PROCESS["⚙️ Process Data"]
-
-    RESULT["📊 Display / Transmit"]
-
-    TEMP --> ESP
-    HEART --> ESP
-    MOTION --> ESP
-
-    ESP --> PROCESS
-    PROCESS --> RESULT
+    A["DS18B20"] --> D["ESP32"]
+    B["MAX30102"] --> D
+    C["MPU6050"] --> D
+    D --> E["Process Sensor Data"]
+    E --> F["Display or Transmit"]
 ```
 
-### `> sensor.matrix`
+### Sensors
 
 ```text
 DS18B20
-└── Body Temperature
-
+└── Temperature
 
 MAX30102
 ├── Heart Rate
-└── SpO₂
-
+└── SpO2
 
 MPU6050
-├── Motion Detection
+├── Motion
 └── Fall Detection
 ```
 
-### `> pipeline`
+### Stack
 
-```text
-SENSORS
-   │
-   ▼
-ESP32
-   │
-   ▼
-READ VALUES
-   │
-   ▼
-PROCESS DATA
-   │
-   ▼
-DISPLAY / TRANSMIT
-```
+`ESP32` `DS18B20` `MAX30102`
 
-### `> stack`
-
-`ESP32`
-`DS18B20`
-`MAX30102`
-`MPU6050`
-`Arduino IDE`
-`Embedded C`
-`IoT`
-
-<br/>
-
-<a href="https://github.com/harshithrosun2705-star/iot-health-monitoring">
-<img src="https://img.shields.io/badge/VIEW_IOT_PROJECT-%E2%86%92-181717?style=for-the-badge&logo=github"/>
-</a>
+`MPU6050` `Arduino IDE` `Embedded C`
 
 </details>
 
 ---
 
-# ⚙️ DevOps Engine
+<div align="center">
+
+### Want to see the code?
+
+<a href="https://github.com/harshithrosun2705-star?tab=repositories">
+  <img src="https://img.shields.io/badge/BROWSE_MY_REPOSITORIES-%E2%86%92-181717?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+
+</div>
+
+---
+
+<a id="pipeline"></a>
+
+# ⚙️ My DevOps Loop
 
 <div align="center">
 
@@ -943,26 +680,14 @@ DISPLAY / TRANSMIT
 
 ```mermaid
 flowchart LR
-
-    CODE["</> CODE"]
-
-    TEST["🧪 TEST"]
-    SECURITY["🔐 SECURITY"]
-    BUILD["🐳 BUILD"]
-    REGISTRY["📦 REGISTRY"]
-    GITOPS["🔄 GITOPS"]
-    K8S["☸️ KUBERNETES"]
-    METRICS["📡 METRICS"]
-    DASH["📊 DASHBOARD"]
-
-    CODE --> TEST
-    TEST --> SECURITY
-    SECURITY --> BUILD
-    BUILD --> REGISTRY
-    REGISTRY --> GITOPS
-    GITOPS --> K8S
-    K8S --> METRICS
-    METRICS --> DASH
+    A["CODE"] --> B["TEST"]
+    B --> C["SECURE"]
+    C --> D["BUILD"]
+    D --> E["REGISTRY"]
+    E --> F["GITOPS"]
+    F --> G["KUBERNETES"]
+    G --> H["METRICS"]
+    H --> I["DASHBOARDS"]
 ```
 
 <div align="center">
@@ -971,87 +696,82 @@ flowchart LR
 
 </div>
 
----
-
-# 🧠 Engineering Philosophy
+<br/>
 
 ```console
-harshith@devops:~$ devops --principles
+harshith@devops:~$ principles
 
-[01] Automate repetitive work
-[02] Infrastructure must be reproducible
-[03] Git should describe desired state
-[04] Security belongs inside the pipeline
-[05] Applications must be observable
-[06] Failures must be detectable
-[07] Recovery should be automated
-[08] Documentation is part of engineering
+01  Automate repetitive work
+02  Make infrastructure reproducible
+03  Keep desired state in Git
+04  Shift security into the pipeline
+05  Make systems observable
+06  Detect failures quickly
+07  Automate recovery where possible
+08  Document what I build
 ```
 
 ---
 
-# 🌐 Engineering Universe
+<a id="engineering-map"></a>
+
+# 🌐 Engineering Map
+
+> One picture of the areas I'm building around.
 
 ```mermaid
-mindmap
+flowchart TB
+    ROOT["HARSHITH ROSUN W"]
 
-root((HARSHITH ROSUN W))
+    ROOT --> A["AWS Cloud"]
+    ROOT --> B["DevOps"]
+    ROOT --> C["Infrastructure"]
+    ROOT --> D["Containers"]
+    ROOT --> E["Observability"]
+    ROOT --> F["Security"]
+    ROOT --> G["Automation"]
 
-  AWS
-    EC2
-    Lambda
-    EKS
-    ECR
-    IAM
-    Networking
-    DynamoDB
+    A --> A1["EC2"]
+    A --> A2["Lambda"]
+    A --> A3["EKS"]
+    A --> A4["Networking"]
 
-  DevOps
-    CI/CD
-    GitHub Actions
-    Jenkins
-    GitOps
+    B --> B1["CI/CD"]
+    B --> B2["GitHub Actions"]
+    B --> B3["Jenkins"]
+    B --> B4["GitOps"]
 
-  Infrastructure
-    Terraform
-    IaC
+    C --> C1["Terraform"]
+    C --> C2["Infrastructure as Code"]
 
-  Containers
-    Docker
-    Kubernetes
-    Helm
+    D --> D1["Docker"]
+    D --> D2["Kubernetes"]
+    D --> D3["Helm"]
 
-  Observability
-    Prometheus
-    Grafana
-    CloudWatch
+    E --> E1["Prometheus"]
+    E --> E2["Grafana"]
+    E --> E3["CloudWatch"]
 
-  Security
-    DevSecOps
-    IAM
-    IRSA
-    Secrets Manager
+    F --> F1["IAM"]
+    F --> F2["IRSA"]
+    F --> F3["Secrets"]
+    F --> F4["DevSecOps"]
 
-  Automation
-    Python
-    Bash
-    Boto3
-
-  Engineering
-    Linux
-    Networking
-    Troubleshooting
-
+    G --> G1["Python"]
+    G --> G2["Bash"]
+    G --> G3["Boto3"]
 ```
 
 ---
+
+<a id="stats"></a>
 
 # 📡 Live GitHub Telemetry
 
 <div align="center">
 
 <img
-  width="95%"
+  width="96%"
   src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=harshithrosun2705-star&theme=tokyonight"
   alt="GitHub profile summary"
 />
@@ -1061,13 +781,13 @@ root((HARSHITH ROSUN W))
 <img
   width="48%"
   src="https://github-readme-stats.vercel.app/api?username=harshithrosun2705-star&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"
-  alt="GitHub Stats"
+  alt="GitHub statistics"
 />
 
 <img
   width="48%"
   src="https://github-readme-stats.vercel.app/api/top-langs/?username=harshithrosun2705-star&layout=compact&theme=tokyonight&hide_border=true"
-  alt="Top Languages"
+  alt="Most used languages"
 />
 
 <br/><br/>
@@ -1075,174 +795,101 @@ root((HARSHITH ROSUN W))
 <img
   width="70%"
   src="https://streak-stats.demolab.com?user=harshithrosun2705-star&theme=tokyonight&hide_border=true"
-  alt="GitHub Streak"
+  alt="GitHub streak"
 />
 
 </div>
 
 ---
 
-# 📈 Contribution Analytics
+## 📈 Activity Stream
 
 <div align="center">
 
 <img
   width="100%"
-  src="https://github-readme-activity-graph.vercel.app/graph?username=harshithrosun2705-star&bg_color=0d1117&color=22d3ee&line=7c3aed&point=ffffff&area=true&hide_border=true"
-  alt="GitHub Contribution Graph"
+  src="https://github-readme-activity-graph.vercel.app/graph?username=harshithrosun2705-star&bg_color=0d1117&color=22d3ee&line=38bdf8&point=ffffff&area=true&hide_border=true"
+  alt="GitHub activity graph"
 />
 
 </div>
 
 ---
 
-# 🐍 Contribution Stream
-
-<div align="center">
-
-<picture>
-
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/harshithrosun2705-star/harshithrosun2705-star/output/github-contribution-grid-snake-dark.svg"
-  />
-
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/harshithrosun2705-star/harshithrosun2705-star/output/github-contribution-grid-snake.svg"
-  />
-
-  <img
-    alt="GitHub contribution snake animation"
-    src="https://raw.githubusercontent.com/harshithrosun2705-star/harshithrosun2705-star/output/github-contribution-grid-snake.svg"
-  />
-
-</picture>
-
-</div>
-
----
-
-# 🔭 Current Coordinates
+## 🔭 Right Now
 
 ```yaml
-engineer:
-  name: HARSHITH ROSUN W
+name: HARSHITH ROSUN W
 
-  focus:
-    - DevOps
-    - Cloud Engineering
-    - Infrastructure Automation
+building:
+  - Cloud Infrastructure
+  - DevOps Automation
+  - Kubernetes Platforms
 
-  cloud:
-    provider: AWS
+cloud:
+  - AWS
 
-  infrastructure:
-    - Terraform
-    - Infrastructure as Code
+infrastructure:
+  - Terraform
 
-  containers:
-    - Docker
-    - Kubernetes
-    - Amazon EKS
+containers:
+  - Docker
+  - Kubernetes
+  - Amazon EKS
 
-  ci_cd:
-    - GitHub Actions
-    - Jenkins
+delivery:
+  - GitHub Actions
+  - Jenkins
+  - ArgoCD
+  - Helm
 
-  gitops:
-    - ArgoCD
-    - Helm
+observability:
+  - Prometheus
+  - Grafana
+  - CloudWatch
 
-  monitoring:
-    - Prometheus
-    - Grafana
-    - CloudWatch
+security:
+  - IAM
+  - IRSA
+  - Secrets Manager
+  - DevSecOps
 
-  security:
-    - IAM
-    - IRSA
-    - Secrets Manager
-    - DevSecOps
-
-  automation:
-    - Python
-    - Bash
-    - Boto3
+automation:
+  - Python
+  - Bash
+  - Boto3
 ```
 
 ---
 
-# 💡 Project Impact
+<a id="connect"></a>
 
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                    HARSHITH ROSUN W                         │
-├──────────────────────────────────────────────────────────────┤
-│                                                              │
-│   ☁️ CLOUD          → AWS Infrastructure                     │
-│                                                              │
-│   💰 FINOPS         → Multi-Region Cost Optimization         │
-│                                                              │
-│   ☸️ KUBERNETES     → OpsPilot                               │
-│                                                              │
-│   🔐 DEVSECOPS      → Secure GitOps Platform                 │
-│                                                              │
-│   ⚡ SERVERLESS     → Price Monitoring Automation            │
-│                                                              │
-│   🐍 AUTOMATION     → Python + Boto3                         │
-│                                                              │
-│   📊 OBSERVABILITY  → Prometheus + Grafana                   │
-│                                                              │
-│   ❤️ IOT            → Embedded Health Monitoring             │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-```
-
----
-
-# 🤝 Establish Connection
+# 🤝 Let's Connect
 
 <div align="center">
 
-## Let's build something reliable.
+### Cloud, DevOps, Kubernetes, automation — that's my space.
 
 <br/>
 
 <a href="https://www.linkedin.com/in/harshith-rosun-w-a3a29a305/">
-<img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-%E2%86%92-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-%E2%86%92-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 <a href="https://github.com/harshithrosun2705-star">
-<img src="https://img.shields.io/badge/EXPLORE_MY_GITHUB-%E2%86%92-181717?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/EXPLORE_MY_GITHUB-%E2%86%92-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 <br/><br/>
 
-```text
-        ☁️ CLOUD
-           +
-      ⚙️ AUTOMATION
-           +
-      ☸️ KUBERNETES
-           +
-       🔐 SECURITY
-           +
-     📊 OBSERVABILITY
-           │
-           ▼
-    RELIABLE SYSTEMS
-```
-
-### `BUILD • AUTOMATE • SECURE • DEPLOY • OBSERVE • IMPROVE`
+### `BUILD • AUTOMATE • DEPLOY • OBSERVE • IMPROVE`
 
 </div>
-
-<!-- ================= FOOTER ================= -->
 
 <p align="center">
   <img
     width="100%"
-    src="https://capsule-render.vercel.app/api?type=waving&height=130&section=footer&color=0:0891b2,50:312e81,100:020617"
+    src="https://capsule-render.vercel.app/api?type=waving&height=125&section=footer&color=0:0891b2,50:172554,100:020617"
+    alt="Footer"
   />
 </p>
